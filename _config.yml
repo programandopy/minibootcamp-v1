@@ -1,0 +1,7 @@
+title: "Programacion Web"
+remote_theme: just-the-docs/just-the-docs
+# theme: "just-the-docs"
+search_enabled: false
+logo: "/assets/images/logo.png"
+heading_anchors: true
+color_scheme: cird
