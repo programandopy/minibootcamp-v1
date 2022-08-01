@@ -14,7 +14,7 @@ Usaremos un closure para manipular el DOM.
 
 Piensa en el DOM como un árbol, que representa todas las formas en que se puede manipular un documento de página web. Se han escrito varias API (interfaces de programas de aplicación) para que los programadores, utilizando el lenguaje de programación de su elección, puedan acceder al DOM y editarlo, cambiarlo, reorganizarlo y administrarlo de otro modo.
 
-![representación de HTML](/assets/images/dom-tree.png)
+![representación de HTML](../assets/images/dom-tree.png)
 
 
 En esta lección, completaremos nuestro proyecto de plaza interactiva creando el JavaScript que permitirá al usuario manipular los componentes en la página.
@@ -197,7 +197,7 @@ Esta pequeña función restablece los eventos `onpointerup` y `onpointermove` pa
 
 ---
 
-🥇¡Felicitaciones! Has terminado tu hermosa plaza. ![plaza terminada](/assets/images/mi-plaza-final.png)
+🥇¡Felicitaciones! Has terminado tu hermosa plaza. ![plaza terminada](../assets/images/mi-plaza-final.png)
 
 🚀Desafío: agrega un nuevo controlador de eventos a tu closure para hacer algo más en los componentes; por ejemplo, haz doble clic en un componente para traerlo al frente. ¡Sé creativa!
 

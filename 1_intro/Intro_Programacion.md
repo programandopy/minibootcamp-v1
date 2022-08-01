@@ -1,5 +1,5 @@
 ---
-title: Introduccion a la programación
+title: Introducción a la programación
 has_children: true
 nav_order: 2
 has_toc: false

@@ -1,7 +1,7 @@
 ---
 title: Cómo funciona Internet
 has_children: false
-parent: Introduccion a la programación
+parent: Introducción a la programación
 ---
 
 # ¿Cómo funciona Internet?

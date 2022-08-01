@@ -65,7 +65,7 @@ body {
 
 Abre la consola de tu navegador en la pestaña 'Elementos' y observa la fuente H1. Hereda su fuente del cuerpo, como se indica en el navegador:
 
-![fuente heredada](/assets/images/body-font.png){:target="_blank"}
+![fuente heredada](../assets/images/body-font.png){:target="_blank"}
 
 ✅ ¿Puedes hacer que un estilo anidado herede una propiedad diferente?
 
@@ -215,7 +215,7 @@ Ten en cuenta el uso de porcentajes aquí. Si reduces la escala de tu navegador,
 
 ---
 
-![plaza terminada](/assets/images/mi-plaza-terminada.png){:target="_blank"}
+![plaza terminada](../assets/images/mi-plaza-terminada.png){:target="_blank"}
 
 
 # Revisión y autoestudio
