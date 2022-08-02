@@ -5,7 +5,7 @@ parent: Herramientas de programación y HTML
 nav_order: 2
 ---
 
-# Control de veriones
+# Control de versiones
 
 El control de versiones, también conocido como "control de código fuente", es la práctica de rastrear y gestionar los cambios en el código de software. Los sistemas de control de versiones son herramientas de software que ayudan a los equipos de software a gestionar los cambios en el código fuente a lo largo del tiempo.
 
@@ -63,33 +63,25 @@ La forma más oficial está disponible para ser descargada en el sitio web de Gi
 Esta lección cubre los conceptos básicos de GitHub, una plataforma para alojar y administrar cambios en tu código.
 
 
-# Introducción
-
-En esta lección, cubriremos:
-
-- Seguimiento de trabajo que se realiza en su maquina.
-- Trabajar en proyectos con otros.
-- Cómo contribuir al software de código abierto (Open Source)
-
-# Prerrequisitos
+## Prerrequisitos
 
 Antes de comenzar, debemos verificar si Git está instalado. Escribe en tu terminal:
 `git --version`
 
-Si Git no está instalado, [descargue Git desde aquí](https://git-scm.com/downloads). Luego, configure su perfil de Git local en la terminal:
+Si Git no está instalado, [descargua Git desde aquí](https://git-scm.com/downloads){:target="_blank"}. Luego, configura tu perfil de Git local en la terminal:
 `git config --global user.name "tu-nombre"`
 `git config --global user.email "tu-email"`
 
 Para comprobar si Git ya está configurado, escribe:
 `git config --list`
 
-También necesitarás una cuenta de GitHub, un editor de código (como Visual Studio Code) una terminal (tambien conocida como linea de comandos o simbolo del sistema).
+También necesitarás una cuenta de GitHub, un editor de código (como Visual Studio Code) y una terminal (tambien conocida como linea de comandos o simbolo del sistema).
 
-Ve a [GitHub.com](https://github.com/) y crea una cuenta si aún no lo has hecho, o inicia sesión y completa tu perfil.
+Ve a [GitHub.com](https://github.com/){:target="_blank"} y crea una cuenta si aún no lo has hecho, o inicia sesión y completa tu perfil.
 
 ✅ GitHub no es el único lugar para almacenar codigo; hay otros, pero GitHub es el más conocido.
 
-# Preparación
+## Preparación
 
 Necesitarás una directorio con un proyecto de código en tu máquina local (computadora portátil o PC) y un repositorio público en GitHub, que te servirá como ejemplo de cómo contribuir a los proyectos de otros.
 
@@ -321,41 +313,8 @@ Actualice tu rama de trabajo local actual con todas las nuevas confirmaciones de
 
 `git pull`
 
-## Cómo contribuir al código abierto
-
-Primero, busquemos un repositorio en GitHub que te interese y al que te gustaría contribuir con un cambio. Querrás copiar el contenido a nuestra máquina.
-
-✅ Una buena forma de encontrar repositorios 'aptos para principiantes' es [buscar por la etiqueta `buena-primera-edición`](https://github.blog/2020-01-22-browse-good-first-issues-para-empezar-a-contribuir-al-código-abierto/).
-
-Hay varias formas de copiar código. Una forma es "clonar" el contenido del repositorio, usando HTTPS, SSH o usando GitHub CLI (Interfaz de línea de comandos).
-
-Abre tu terminal y clona el repositorio así:
-`git clone https://github.com/ProjectURL`
-
-Para trabajar en el proyecto, cambia al directorio correcto:
-`cd ProjectURL`
-
-También puedes abrir todo el proyecto utilizando [Codespaces](https://github.com/features/codespaces), el entorno de desarrollo en la nube / editor de código integrado de GitHub o [GitHub Desktop](https://desktop.github.com/).
-
-Por último, puedes descargar el código en un directorio comprimido.
-
-# Algunas cosas más interesantes sobre GitHub
-
-Puede destacar, ver y / o "fork" cualquier repositorio público en GitHub. Puedes encontrar tus repositorios destacados en el menú desplegable de la parte superior derecha. Es como marcar como favorito, pero por código.
-
-Los proyectos tienen un rastreador de problemas, principalmente en GitHub en la pestaña "Issues" a menos que se indique lo contrario, donde las personas debaten los problemas relacionados con el proyecto. Y la pestaña Solicitudes de extracción es donde las personas debaten y revisan los cambios que están en curso.
-
-Los proyectos también pueden tener discusiones en foros, listas de correo o canales de chat como Slack, Discord o IRC.
-
-✅ Echa un vistazo a tu nuevo repositorio de GitHub y prueba algunas cosas, como editar la configuración, agregar información a tu repositorio y crear un proyecto (como un tablero Kanban). ¡Hay muchas cosas que puedes hacer!
-
-🚀 Desafío: empareja con un amigo(a) para trabajar en el código juntos. Crea un proyecto de forma colaborativa, bifurque el código, crea ramas y combina los cambios.
-
-## [Post-lecture prueba](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/4)
-
 ## Revisión y autoestudio
 
-Obtén más información sobre [contribución al software de código abierto](https://opensource.guide/how-to-contribute/#how-to-submit-a-contribution).
 
 [Hoja de referencia de Git](https://training.github.com/downloads/github-git-cheat-sheet/).
 
