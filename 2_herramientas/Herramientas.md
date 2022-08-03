@@ -1,5 +1,5 @@
 ---
-title: Herramientas de programación y HTML
+title: Herramientas de programación
 has_children: true
 nav_order: 3
 has_toc: false

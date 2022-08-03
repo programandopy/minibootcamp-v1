@@ -1,8 +1,9 @@
 ---
 title: Introducción a CSS
 has_children: false
-nav_order: 4
+nav_order: 5
 ---
+
 # Introducción:
 
 CSS, o Cascading Style Sheets, resuelve un problema importante del desarrollo web: cómo hacer que tu sitio web se vea bien. Diseñar tus aplicaciones las hace más útiles y atractivas. También puedes usar CSS para crear un diseño web receptivo (RWD), lo que permite que tus aplicaciones se vean bien sin importar en qué tamaño de pantalla se muestren. CSS no se trata sólo de hacer que tu aplicación se vea bien; su especificación incluye animaciones y transformaciones que pueden permitir interacciones sofisticadas para tus aplicaciones. El grupo de trabajo CSS ayuda a mantener las especificaciones CSS actuales; puedes seguir su trabajo en el [sitio del World Wide Web Consortium](http://es.tz8.de/style-css-members.html){:target="_blank"}.

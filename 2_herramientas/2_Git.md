@@ -1,7 +1,7 @@
 ---
 title: Git
 has_children: false
-parent: Herramientas de programación y HTML
+parent: Herramientas de programación
 nav_order: 2
 ---
 
@@ -67,14 +67,20 @@ Esta lección cubre los conceptos básicos de GitHub, una plataforma para alojar
 ## Prerrequisitos
 
 Antes de comenzar, debemos verificar si Git está instalado. Escribí en tu terminal:
-`git --version`
+```bash
+git --version
+```
 
 Si Git no está instalado, [descargá Git desde acá](https://git-scm.com/downloads){:target="_blank"}. Luego, configurá tu perfil de Git local en la terminal:
-`git config --global user.name "tu-nombre"`
-`git config --global user.email "tu-email"`
+```bash
+git config --global user.name "tu-nombre"
+git config --global user.email "tu-email"
+```
 
 Para comprobar si Git ya está configurado, escribí:
-`git config --list`
+```bash
+git config --list
+```
 
 También vas a necesitar una cuenta de GitHub, un editor de código (como Visual Studio Code) y una terminal (tambien conocida como línea de comandos o símbolo del sistema).
 
@@ -125,9 +131,17 @@ Para esto vamos a usar de ejemplo un proyecto que te va a servir como porfolio d
    ```
 
 4. **Creá el archivo para tu portfolio**. En la terminar escribí:
+
+   Linux:
    ```bash
    touch index.html
    ```
+
+   Windows:
+   ```bash
+   type NUL >> index.html
+   ```
+
    Esto va a crear un archivo HTML que va a representar a tu portfolio.
 
 5. **Abrir el archivo**. Si estás usando Visual Studio Code podés abrir el archivo desde la terminal escribiendo:
