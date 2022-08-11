@@ -260,6 +260,9 @@ CSS parece engañosamente sencillo, pero existen muchos desafíos cuando se trat
 Lectura adicional: [Diseñá tu aplicación HTML con CSS](https://docs.microsoft.com/es-mx/learn/modules/build-simple-website/4-css-basics?WT.mc_id=academic-13441-cxa){:target="_blank"}
 
 ## Tarea - Refactorización CSS
+
+### Instrucciones
+
 Cambiá el estilo del diseño usando Flexbox o CSS Grid, y tomá capturas de pantalla para mostrar que lo probaste en varios navegadores. Es posible que debas cambiar el marcado, así que creá una nueva versión de la aplicación para su refactorización. No te preocupes por hacer que los elementos se puedan arrastrar; sólo refactorizá el HTML y CSS por ahora.
 
 ### Rúbrica

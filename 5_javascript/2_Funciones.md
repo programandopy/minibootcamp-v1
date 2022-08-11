@@ -199,15 +199,15 @@ Ahora viste que tenemos tres formas de pasar una función como parámetro y pued
 Vale la pena [leer un poco más sobre las funciones de flecha](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Arrow_functions){:target="_blank"}, ya que se utilizan cada vez más en bases de código. Practicá escribir una función y luego reescribirla con esta sintaxis.
 
 
-# Diversión con funciones
+## Tarea - Diversión con funciones
 
-## Instrucciones
+### Instrucciones
 
 Creá diferentes funciones, tanto funciones que devuelvan algo como funciones que no devuelvan nada.
 
 Ve si podés crear una función que tenga una combinación de parámetros y parámetros con valores predeterminados.
 
-## Rúbrica
+### Rúbrica
 
 | Criterios | Ejemplar | Adecuado | Necesita mejorar |
 | -------- | -------------------------------------------------- ------------------------------------ | -------------------------------------------------- -------------- | ----------------- |

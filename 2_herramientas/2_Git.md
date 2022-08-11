@@ -340,7 +340,7 @@ A continuación veremos algunos comando extras que te serán de utilidad en el f
 
 Actualiza tu rama de trabajo local actual con todas las nuevas confirmaciones de la rama remota correspondiente en GitHub: `git pull`
 
-## Revisión y autoestudio
+# Revisión y autoestudio
 
 En Internet hay mucha material para aprender Git, pero la clave para manejarlo es práctica, mucha práctica.
 [Git Branching](https://learngitbranching.js.org/?locale=es_ES){:target="_blank"} es un proyecto interactivo que puede ayudarte a mejorar tus conocimientos sobre Git.

@@ -164,17 +164,17 @@ if (primerNumero > segundoNumero) {
 Más información sobre los muchos operadores disponibles para el usuario [en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators){:target="_blank"}.
 
 
-# Operadores
+## Tarea - Operadores
 
-## Instrucciones
+### Instrucciones
 
 Jugá con los operadores. Aquí hay una sugerencia de un programa que podés implementar: un conjunto de estudiantes con dos sistemas de calificación diferentes.
 
-### Primer sistema de calificación
+#### **Primer sistema de calificación**
 
 Un sistema de calificación se define como calificaciones del 1 al 5, donde 3 y más significa que aprueba el curso.
 
-### Segundo sistema de calificación
+#### **Segundo sistema de calificación**
 
 El otro sistema de calificaciones tiene las siguientes calificaciones `A, A-, B, B-, C, C-` donde `A` es la calificación más alta y `C` es la calificación más baja para aprobar.
 
@@ -198,7 +198,7 @@ let totalEstudiantes = [
 let estudiantesQuePasaron = [];
 ```
 
-## Rúbrica
+### Rúbrica
 
 | Criterios | Ejemplar | Adecuado | Necesita mejorar |
 | -------- | ------------------------------ | ----------------------------- | ------------------------------- |

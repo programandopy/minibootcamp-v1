@@ -188,13 +188,13 @@ Los booleanos pueden tener solo dos valores: `true` (verdadero) o `false` (falso
 
 Echá un vistazo a [esta lista de ejercicios de JavaScript](https://css-tricks.com/snippets/javascript/){:target="_blank"} y probá uno. ¿Qué aprendiste?
 
-# Práctica de tipos de datos
+## Tarea - Práctica de tipos de datos
 
-## Instrucciones
+### Instrucciones
 
 Imaginá que estás construyendo un carrito de compras. Escribí documentación sobre los tipos de datos que necesitarías para completar tu experiencia de compra. ¿Cómo llegasst a tus elecciones?
 
-## Rúbrica
+### Rúbrica
 
 Criterios | Ejemplar | Adecuado | Necesita mejorar
 --- | --- | --- | - |

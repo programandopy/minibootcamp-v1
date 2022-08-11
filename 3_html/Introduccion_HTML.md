@@ -221,7 +221,7 @@ Agregá este código encima de la última etiqueta `</div>`:
 
 🚀 Desafío: hay algunas etiquetas "antiguas" salvajes en HTML con las que todavía es divertido jugar, aunque no debés usar etiquetas obsoletas como [estas etiquetas](https://developer.mozilla.org/es/docs/Web/HTML/Element#elementos_obsoletos_y_en_desuso){:target="_blank"} en tu código. Aún así, ¿podés usar la antigua etiqueta `<marquee>` para hacer que el título h1 se desplace horizontalmente? (si lo hacés, no olvides quitarlo después).
 
-## Revisión y estudio
+# Revisión y estudio
 
 HTML es el sistema de bloques de construcción 'probado y verdadero' que ha ayudado a convertir la web en lo que es hoy. Aprendé un poco sobre su historia estudiando algunas etiquetas antiguas y nuevas. ¿Podés averiguar por qué algunas etiquetas quedaron obsoletas y otras se agregaron? ¿Qué etiquetas podrían introducirse en el futuro?
 
