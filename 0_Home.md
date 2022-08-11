@@ -12,7 +12,7 @@ permalink: /
 Esta es una capacitación intensiva de 12 días de duración con el objetivo de que los jóvenes adquieran conocimientos básicos sobre desarrollo web y habilidades blandas que les permita continuar con su proceso de aprendizaje de manera autodidacta.
 {: .fs-6 .fw-300 }
 
-[Empezar](/1_intro/Intro_Programacion){: .btn .btn-blue-cird .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Empezar](1_intro/Intro_Programacion){: .btn .btn-blue-cird .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---
 

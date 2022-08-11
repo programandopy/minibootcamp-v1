@@ -101,7 +101,7 @@ Ahora podés comenzar a construir tu página. Normalmente, usás etiquetas `<div
 
 Una etiqueta html que no necesita una etiqueta de cierre es la etiqueta `<img>`, porque tiene un elemento `src` que contiene toda la información que la página necesita para representar el elemento.
 
-Creá una carpeta en tu aplicación llamada `images` y en ella, agregá todas las imágenes de la [carpeta del código fuente](/assets/images/layout.zip){:target="_blank"}; (hay 20 imágenes en total).
+Creá una carpeta en tu aplicación llamada `images` y en ella, agregá todas las imágenes de la [carpeta del código fuente](../assets/images/layout.zip){:target="_blank"}; (hay 20 imágenes en total).
 
 
 # Tarea:
