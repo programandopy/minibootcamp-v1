@@ -4,6 +4,8 @@ has_children: false
 nav_order: 4
 ---
 
+# Proyecto de Diseño Parte 1: Introducción a HTML
+
 # Introducción:
 
 HTML, o HyperText Markup Language, es el "esqueleto" de la web. Si CSS 'viste' tu HTML y JavaScript le da vida, el cuerpo de tu aplicación web es tu HTML. La sintaxis de HTML incluso refleja esa idea, ya que incluye etiquetas "head" (cabeza), "body" (cuerpo) y "footer" (pie).

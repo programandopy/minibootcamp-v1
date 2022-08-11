@@ -6,7 +6,7 @@ has_toc: false
 ---
 
 
-En esta sección, aprenderás sobre JavaScript.
+Es momento de hacer una pausa en nuestro proyecto de diseño para hablar sobre JavaScript.
 
 JavaScript® (a menudo abreviado como JS) es un lenguaje ligero, interpretado y orientado a objetos con funciones de primera clase, y mejor conocido como el lenguaje de programación para las páginas Web, pero también se utiliza en muchos entornos que no son de navegador. Es un lenguaje de scripts que es dinámico, multiparadigma, basado en prototipos y admite estilos de programación orientados a objetos, imperativos y funcionales.
 

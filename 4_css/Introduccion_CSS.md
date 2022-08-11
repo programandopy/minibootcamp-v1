@@ -4,6 +4,8 @@ has_children: false
 nav_order: 5
 ---
 
+# Proyecto de Diseño Parte 2: Introducción a CSS
+
 # Introducción:
 
 CSS, o Cascading Style Sheets, resuelve un problema importante del desarrollo web: cómo hacer que tu sitio web se vea bien. Diseñar tus aplicaciones las hace más útiles y atractiva. También podés usar CSS para crear un diseño web receptivo (RWD), lo que permite que tus aplicaciones se vean bien sin importar en qué tamaño de pantalla se muestren. CSS no se trata solo de hacer que tu aplicación se vea bien; su especificación incluye animaciones y transformaciones que pueden permitir interacciones sofisticadas para tus aplicaciones. El grupo de trabajo CSS ayuda a mantener las especificaciones CSS actuales; podés seguir su trabajo en el [sitio del World Wide Web Consortium](https://www.w3.org/Style/CSS/members){:target="_blank"}.
