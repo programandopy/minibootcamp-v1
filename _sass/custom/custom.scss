@@ -2,10 +2,16 @@
 
 .side-bar {
   background-color: $background-color;
+  width: 0%;
+}
+
+.main {
+  margin-left: 20rem;
+  max-width: 80%;
 }
 
 .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
-   background-image: linear-gradient(90deg, $purple-cird, $purple-cird 10%, $base-purple-cird, );
+   background-image: linear-gradient(90deg, $purple-cird, $purple-cird 10%, $base-purple-cird);
   // background-color: $background-color;
   // background-image: none;
 }
