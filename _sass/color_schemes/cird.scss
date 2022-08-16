@@ -11,3 +11,10 @@ $base-purple-cird: #AC95FF !default;
 $background-color: $purple-cird;
 
 $link-color: $purple-cird; //funciona
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../../assets/OpenSans-VariableFont.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
