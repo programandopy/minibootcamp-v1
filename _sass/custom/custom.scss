@@ -1,18 +1,51 @@
 @import "../color_schemes/cird.scss";
 
 .side-bar {
-  background-color: $yellow-cird;
+  background-color: $background-color;
 }
 
 .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
-  //  background-image: linear-gradient(-90deg, #ebedf5 0%, rgba(235, 237, 245, 0.8) 80%, rgba(235, 237, 245, 0) 100%);
-    background-color: $yellow-cird;
-    background-image: none;
-  }
+   background-image: linear-gradient(90deg, $purple-cird, $purple-cird 10%, $base-purple-cird, );
+  // background-color: $background-color;
+  // background-image: none;
+}
 
-  .btn-blue-cird {
-    color: $white; 
-    background-color: $blue-cird; 
-    // background-image: linear-gradient(#6f55d5, #5739ce); 
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.12);
-  }
+.nav-list .nav-list-item .nav-list-expander:hover {
+  background-color: $background-color;
+  background-image: none;
+}
+
+.btn-blue-cird {
+  color: $white; 
+  background-color: $purple-cird; 
+  // background-image: linear-gradient(#6f55d5, #5739ce); 
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.breadcrumb-nav-list-item {
+  color: $background-color;
+}
+
+.nav-list-link {
+  color: $white;
+}
+
+.nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
+  color: $white;
+}
+
+.nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-link {
+  color: $white;
+}
+
+.nav-list .nav-list-item .nav-list-expander {
+  color: $white;
+}
+
+.site-footer {
+  color: $white;
+}
+
+.site-footer > a {
+  color: $white;
+}

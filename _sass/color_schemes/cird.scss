@@ -1,6 +1,13 @@
-$blue-cird: #084892 !default;
-$yellow-cird: #DEAB38 !default;
+$pink-cird: #F41E93 !default;
+$purple-cird: #4933A3 !default;
+$light-blue-cird: #1ABEE5 !default;
+$yellow-cird: #F9D10D !default;
+$orange-cird: #F98E0D !default;
+$green-cird: #61C626 !default;
 
-$link-color: $blue-cird; //funciona
-$body-background-color: $green-000 !default; //no funciona
-$sidebar-color: $yellow-000 !default; //no funciona
+// gradientes
+$base-purple-cird: #AC95FF !default;
+
+$background-color: $purple-cird;
+
+$link-color: $purple-cird; //funciona
