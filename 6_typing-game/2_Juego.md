@@ -12,7 +12,7 @@ Ahgora vamos a crear un juego para entender mejor cómo funcionan los eventos en
 - El jugador hace clic en el botón de inicio y se le presenta un texto de ejemplo para escribir.
 - El jugador escribe el texto lo más rápido posible en un cuadro de texto.
    - A medida que se completa cada palabra, se resalta la siguiente a escribir.
-   - Si el jugador tiene un error de escritura, el cuadro de texto se actualiza en rojo para indicar que algo no va bien.
+   - Si el jugador tiene un error de escritura, el cuadro de texto se actualiza resaltándolo en rojo para indicar que algo no va bien.
    - Cuando el jugador completa la totalidad de las palabras del texto, se muestra un mensaje de éxito mostrando también el tiempo total que le tomó el completar el desafío.
 
 **TIP:**
@@ -39,9 +39,9 @@ Vamos a necesitar crear tres archivos en total: **index.html**, **script.js** y 
 
 ```bash
 # Linux o macOS
-mkdir typing-game && cd typing-game
+mkdir typingGame && cd typingGame
 # Windows
-md typing-game && cd typing-game
+md typingGame && cd typingGame
 ```
 
 
@@ -58,15 +58,15 @@ code .
 
 ---
 
-# Creemos la interface de usuario
+# Creemos la interfaz de usuario
 Como ya vimos en los requsitos que definimos para nuestro programa, vamos a necesitar varios componetes para nuestro HTML. A continuación te mostramos una pequeña guía para que lo construyas:
 
-- Un bloque dónde mostrar el texto que el usuario debe escribir.
-- Un bloque dónde mostrar nuestros mensajes de alerta, como los mensajes de error o de éxito.
+- Un bloque donde mostrar el texto que el usuario debe escribir.
+- Un bloque donde mostrar nuestros mensajes de alerta, como los mensajes de error o de éxito.
 - Un cuadro de texto para escribir.
 - Un botón para iniciar el juego.
 
-Estas secciones necesitarán que les asignemos un ID para que podamos trabajar con ellos de forma individual en nuestro JavaScript. También debemos agregar referencias a los archivos CSS y JavaScript que vamos a crear para que nuestro HTML sepa donde encontrardebemos agregar.
+Estas secciones necesitarán que les asignemos un "ID" para que podamos trabajar con ellos de forma individual en nuestro JavaScript. También debemos agregar referencias a los archivos CSS y JavaScript que vamos a crear para que nuestro HTML sepa donde encontrarlos.
 
 Ahora creamos un nuevo archivo con el nombre **index.html** y agregamos el siguiente código HTML:
 
@@ -93,12 +93,12 @@ Ahora creamos un nuevo archivo con el nombre **index.html** y agregamos el sigui
 
 ---
 # Probemos nuestro programa
-Es una buena práctica probar nuestro código a medida que lo desarrollamos para ver como van las cosas, entonces iniciemos nuestra aplicación y utilizamos la extensión de Visual Studio Code llamada [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) que alojará la aplicación localmente y actualizará el navegador cada vez que guardemos nuestro código permitiéndonos ver el restultado de nuestro código.
+Es una buena práctica probar nuestro código a medida que lo desarrollamos para ver como van las cosas, entonces iniciemos nuestra aplicación y utilizamos la extensión de Visual Studio Code llamada [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) que alojará la aplicación localmente y actualizará el navegador cada vez que guardemos nuestro código permitiéndonos ver el restultado de nuestros cambios.
 
 
 - Instalamos, si es que aún no lo tenemos instalado, [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) siguiendo el enlace y haciendo clic en **Instalar**
    - Reinicie Visual Studio Code si es que así lo solicita.
-- Una vez instalado, en Visual Studio Code, hacemos clic en Ctrl+Shift+P (o Cmd+Shift+P en Mac) para abrir el área de comandos.
+- Una vez instalado, en Visual Studio Code, hacemos clic en Ctrl+Shift+P (o Cmd+Shift+P en MacOS) para abrir el área de comandos.
 - Escriba **Live Server: Abrir con Live Server**
    - Live Server comenzará a alojar su aplicación.
 - Abrimos el navegador y escribimos la dirección **https://localhost:5500**
@@ -108,22 +108,22 @@ Ahora empieza lo divertivo, vamos a agregar más funcionalidad a nuestro juego.
 
 ---
 # Agreguemos algo de estilo con CSS
-Sobre nuestro HTML creado, ahora agreguemos el CSS para dar el estilo principal a nuestro código. Para que todo sea más claro necesitamos resaltar la palabra que el jugador debe escribir y colorear el cuadro de texto si lo que ha escrito es incorrecto. Para hacer esto vamos a utilizar dos clases dentro de nuestro CSS.
+Sobre nuestro HTML creado, ahora agreguemos el CSS para dar el estilo principal a nuestro código. Para que todo sea más claro necesitamos resaltar la palabra que el jugador debe escribir y colorear el cuadro de texto si lo que escribió es incorrecto. Para hacer esto vamos a utilizar dos clases dentro de nuestro CSS.
 
 Empezamos crando un nuevo archivo llamado **style.css** y agregamos el siguiente código:
 
 ```css
 /* dentro de estilo.css */
 .destacar {
-   color de fondo: amarillo;
+   background-color: amarillo;
 }
 .error {
-   color de fondo: coral claro;
-   borde: rojo;
+   background-color: coral claro;
+   border-color: rojo;
 }
 ```
 
-✅ **TIP**: Cuando se trata de CSS, podmos diseñar la página como más nos guste. Es aquí donde nos tomamos el tiempo para diseñar lo que querramos mostrar y hacer que la página se vea más atractiva, teniendo en cuenta por ejemplo:
+✅ **TIP**: Cuando se trata de CSS, podemos diseñar la página como más nos guste. Es aquí donde nos tomamos el tiempo para diseñar lo que querramos mostrar y hacer que la página se vea más atractiva, teniendo en cuenta por ejemplo:
 
 - Eligir un tipo fuente diferente.
 - Colores para los encabezados.
@@ -132,13 +132,13 @@ Empezamos crando un nuevo archivo llamado **style.css** y agregamos el siguiente
 ---
 # Es hora de JavaScript
 
-Con nuestra interfaz de usuario creada, es hora de centrar nuestra atención en el JavaScript para proporcionará la lógica de nuestro juego. Vamos a dividir esto en varios pasos:
+Con nuestra interfaz de usuario creada, es hora de centrar nuestra atención en el JavaScript para proporcionar la lógica de nuestro juego. Vamos a dividir esto en varios pasos:
 
 - [Crear las constantes](/5_javascript/1_DataTypes.html#constantes)
 - [Event Listaner para iniciar el juego](#add-start-logic)
 - [Event Listener para escribir](#add-typing-logic)
 
-Pero primero, cree un nuevo archivo llamado **script.js**.
+Pero primero, creemos un nuevo archivo llamado **script.js**.
 
 ---
 # Agreguemos las constantes
@@ -327,8 +327,15 @@ Agregar más funcionalidad
 También podés leer [todos los eventos disponibles](https://developer.mozilla.org/docs/web/events){:target="_blank"} para que como desarrollador puedas usar a través del navegador web, e imaginá los escenarios en los que usarías cada uno.
 
 ---
+## Tarea - Crea un nuevo juego con los eventos de teclado
 
-## Rúbrica
+### Instrucciones
+Cree un juego pequeño que use eventos de teclado para realizar tareas. Puede ser un tipo diferente de juego de mecanografía o un juego de tipo artístico que pinta píxeles en la pantalla con las pulsaciones de teclas. ¡Se creativo!
+
+---
+
+
+### Rúbrica
 
 | Criterios | Ejemplar | Adecuado | Necesita mejorar |
 | -------- | -------------------------------------------------- ------------------------------------ | -------------------------------------------------- -------------- | ----------------- |
