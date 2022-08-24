@@ -7,7 +7,7 @@ nav_order: 2
 
 # Programemos un juego
 
-Ahgora vamos a crear un juego para entender mejor cómo funcionan los eventos en **JavaScript**. El juego a programar se trata de poner a prueba la habilidad de escritura de un jugador, que es una de las habilidades más practicadas por todos los desarrolladores. El flujo general del juego sería así:
+Ahora vamos a crear un juego para entender mejor cómo funcionan los eventos en **JavaScript**. El juego a programar se trata de poner a prueba la habilidad de escritura de un jugador, que es una de las habilidades más practicadas por todos los desarrolladores. El flujo general del juego sería así:
 
 - El jugador hace clic en el botón de inicio y se le presenta un texto de ejemplo para escribir.
 - El jugador escribe el texto lo más rápido posible en un cuadro de texto.
@@ -93,13 +93,13 @@ Ahora creamos un nuevo archivo con el nombre **index.html** y agregamos el sigui
 
 ---
 # Probemos nuestro programa
-Es una buena práctica probar nuestro código a medida que lo desarrollamos para ver como van las cosas, entonces iniciemos nuestra aplicación y utilizamos la extensión de Visual Studio Code llamada [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) que alojará la aplicación localmente y actualizará el navegador cada vez que guardemos nuestro código permitiéndonos ver el restultado de nuestros cambios.
+Es una buena práctica probar nuestro código a medida que lo desarrollamos para ver como van las cosas, entonces iniciemos nuestra aplicación y utilizamos la extensión de Visual Studio Code llamada [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer){:target="_blank"} que alojará la aplicación localmente y actualizará el navegador cada vez que guardemos nuestro código permitiéndonos ver el restultado de nuestros cambios.
 
 
-- Instalamos, si es que aún no lo tenemos instalado, [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) siguiendo el enlace y haciendo clic en **Instalar**
-   - Reinicie Visual Studio Code si es que así lo solicita.
+- Instalamos, si es que aún no lo tenemos instalado, [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer){:target="_blank"} siguiendo el enlace y haciendo clic en **Instalar**
+   - Reiniciá Visual Studio Code si es que así lo solicita.
 - Una vez instalado, en Visual Studio Code, hacemos clic en Ctrl+Shift+P (o Cmd+Shift+P en MacOS) para abrir el área de comandos.
-- Escriba **Live Server: Abrir con Live Server**
+- Escribí **Live Server: Abrir con Live Server**
    - Live Server comenzará a alojar su aplicación.
 - Abrimos el navegador y escribimos la dirección **https://localhost:5500**
 - ¡Ahora ya podemos ver la página que creamos!.
@@ -135,8 +135,8 @@ Empezamos crando un nuevo archivo llamado **style.css** y agregamos el siguiente
 Con nuestra interfaz de usuario creada, es hora de centrar nuestra atención en el JavaScript para proporcionar la lógica de nuestro juego. Vamos a dividir esto en varios pasos:
 
 - [Crear las constantes](/5_javascript/1_DataTypes.html#constantes)
-- [Event Listaner para iniciar el juego](#add-start-logic)
-- [Event Listener para escribir](#add-typing-logic)
+- [Event Listener para iniciar el juego](#como-iniciar-el-juego)
+- [Event Listener para escribir](#control-del-juego)
 
 Pero primero, creemos un nuevo archivo llamado **script.js**.
 
@@ -182,12 +182,9 @@ const typedValorElemento = document.getElementById('typed-value');
 
 ✅ Continúa y agrega más textos a tu juego
 
-> **NOTA:** Podemos recuperar los elementos cuando queramos en el código usando `document.getElementById`. Debido al hecho de que nos referiremos a estos elementos de manera regular, evitaremos errores tipográficos con cadenas literales mediante el uso de constantes. Los marcos como [Vue.js](https://vuejs.org/) o [React](https://reactjs.org/) pueden ayudarlo a administrar mejor la centralización de su código.
+> **NOTA:** Podemos recuperar los elementos cuando queramos en el código usando `document.getElementById`. Debido al hecho de que nos referiremos a estos elementos de manera regular, evitaremos errores tipográficos con cadenas literales mediante el uso de constantes. Los marcos como [Vue.js](https://vuejs.org/){:target="_blank"} o [React](https://reactjs.org/){:target="_blank"} pueden ayudarlo a administrar mejor la centralización de su código.
 Tómese un minuto para ver un video sobre el uso de `const`, `let` y `var`
 
-[![Tipos de variables](https://img.youtube.com/vi/JNIXfGiDWM8/0.jpg)](https://youtube.com/watch?v=JNIXfGiDWM8 "Tipos de variables")
-
-> 🎥 Haz clic en la imagen de arriba para ver un video sobre las variables.
 
 ---
 # Agreguemos la lógica del juego
@@ -233,7 +230,7 @@ document.getElementById('start').addEventListener('click', () => {
 ¡Analicemos el código!
 
 - Configurar el seguimiento de las palabras
-  - Usando [Math.floor] (https://developer.mozilla.org/docs/web/javascript/reference/global_objects/math/floor) y [math.random] (https://developer.mozilla.org/docs /Web/javascript/reference/global_objects/math/random) nos permite seleccionar aleatoriamente una cotización de la matriz "texto"
+  - Usando [Math.floor] (https://developer.mozilla.org/docs/web/javascript/reference/global_objects/math/floor){:target="_blank"} y [math.random] (https://developer.mozilla.org/docs /Web/javascript/reference/global_objects/math/random){:target="_blank"} nos permite seleccionar aleatoriamente una cotización de la matriz "texto"
   - Convertimos el "texto" en una matriz de "palabras" para que podamos rastrear la palabra que el reproductor está escribiendo actualmente
   - "palabraIndice" se establece en 0, ya que el reproductor comenzará con la primera palabra
 - Configurar la interfaz de usuario
@@ -311,29 +308,21 @@ Hagamos clic en **Iniciar** y comienza a escribir! Debería parecerse un poco a 
 
 ![Animación del juego en acción](images/demo-typing-game.gif)
 
----
-# 🚀 Desafío
+🚀 Desafío: agregar más funcionalidad
 
-Agregar más funcionalidad
+- Deshabilitá el "Input" Event Listener al finalizar y vuelva a habilitarlo cuando se haga clic en el botón
+- Deshabilitá el cuadro de texto cuando el reproductor complete el texto de ejemplo
+- Mostrá un cuadro de diálogo modal con el mensaje de éxito
+- Almacená puntajes altos usando [LocalStorage](https://developer.mozilla.org/docs/web/api/window/localstorage){:target="_blank"}
 
-- Deshabilite el "Input" Event Listener al finalizar y vuelva a habilitarlo cuando se haga clic en el botón
-- Deshabilite el cuadro de texto cuando el reproductor complete el texto de ejemplo
-- Muestra un cuadro de diálogo modal con el mensaje de éxito
-- Almacene puntajes altos usando [LocalStorage](https://developer.mozilla.org/docs/web/api/window/localstorage)
-
----
 # Revisión y autoestudio
 
 También podés leer [todos los eventos disponibles](https://developer.mozilla.org/docs/web/events){:target="_blank"} para que como desarrollador puedas usar a través del navegador web, e imaginá los escenarios en los que usarías cada uno.
 
----
-## Tarea - Crea un nuevo juego con los eventos de teclado
+## Tarea - Creá un nuevo juego con los eventos de teclado
 
 ### Instrucciones
-Cree un juego pequeño que use eventos de teclado para realizar tareas. Puede ser un tipo diferente de juego de mecanografía o un juego de tipo artístico que pinta píxeles en la pantalla con las pulsaciones de teclas. ¡Se creativo!
-
----
-
+Creá un juego pequeño que use eventos de teclado para realizar tareas. Puede ser un tipo diferente de juego de mecanografía o un juego de tipo artístico que pinta píxeles en la pantalla con las pulsaciones de teclas. ¡Sé creativo!
 
 ### Rúbrica
 
