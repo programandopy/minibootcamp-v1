@@ -8,6 +8,17 @@ has_toc: false
 
 En esta lección crearemos una aplicación para mostrar el menú de nuestro restaurante, tomando los datos de una planilla de Google Sheets, mediante una API. De esta forma si actualizamos los datos de nuestra planilla, también podremos actualizar los datos de nuestro menú.
 
+## API
+
+Una API, interfaz de programación de aplicaciones por sus siglas en inglés, es una forma de comunicar dos o más programas informáticos. Normalmente las API’s web ofrecen un conjunto de *endpoints* a través de los cuales las aplicaciones web pueden interactuar con ella. Se denomina cliente a la aplicación que realiza solicitudes al servidor donde se encuentra la API. El servidor a su vez, envía respuestas a las solicitudes hechas por el cliente.
+
+## Google sheets
+
+Google sheets es una aplicación para manejo de hojas de cálculo (similar a Excel). Una hoja de cálculo es un tipo de documento que permite manipular datos que se encuentran dispuestos en celdas, que se organizan en filas y columnas. Google sheets además nos ofrece una API web para interactuar con los datos de nuestras hojas de cálculo.
+
+
+## Estructura de archivos
+
 Necesitaremos crear tres archivos: uno para nuestro markup: `index.html`, uno para nuestros estilos: `style.css`, y uno para nuestros scripts: `scripts.js`.
 
 ```bash
@@ -24,6 +35,8 @@ Creamos los tres archivos mencionados dentro de la carpeta menu-app.
 * index.html
 * style.css
 * scripts.js
+
+## HTML
 
 En nuestro html tendremos un título para nuestro menú, y abajo tendremos un div que contendrá todos los productos de nuestro menú. A este div le pondremos el id `lista-menu` de forma a poder utilizarlo luego desde nuestro javascript.
 
@@ -43,6 +56,8 @@ En nuestro html tendremos un título para nuestro menú, y abajo tendremos un di
 ```
 
 Podemos observar lo que hemos hecho hasta ahora, abriendo el archivo `index.html` en nuestro navegador. Falta estilo, ¿verdad?
+
+## CSS
 
 En el archivo styles.css podemos incluirlo, por ejemplo así:
 
@@ -121,7 +136,17 @@ el line-height acá también debería aumentar al mismo valor.
 
 Notemos que tenemos algunas clases que todavía no están siendo usadas. Las usaremos en nuestro script.
 
-A continuación escribiremos nuestro script para obtener los datos de la API y mostrarlos correctamente. Debemos tener en cuenta que traeremos los datos de una planilla electrónica de Google (Google sheets) y para esto debemos autenticarnos mediante un token de acceso. Este token de acceso se envía en la cabecera `Authorization`. También tendremos que especificar el id de la planilla, que se encuentra en la url de la misma. Esto lo realizamos de la siguiente manera:
+## Javascript
+
+A continuación escribiremos nuestro script para obtener los datos de la API y mostrarlos correctamente. Debemos tener en cuenta que traeremos los datos de una planilla electrónica de Google (Google sheets) y para esto debemos autenticarnos mediante un token de acceso.
+
+Un token de acceso es un conjunto de caracteres que nos permiten verificar nuestra identidad ante una API, de forma a verificar que tengamos los permisos correspondientes para realizar las acciones que estamos solicitando.
+
+Las cabeceras o *headers* permiten al cliente y al servidor enviar información adicional con una solicitud o respuesta. Para nuestro ejemplo, enviaremos nuestro token en la cabecera *Authorization*
+
+URL significa Localizador de Recursos Uniforme por sus siglas en inglés, y es una direccion para un recurso único en la Web. Tendremos que especificar el id de la planilla, que se encuentra en la URL de la misma.
+
+Para poder obtener los datos de nuestra hoja de cálculo, utilizaremos la función `fetch` que nos provee javascript. Fetch es una función que nos ofrece una forma sencilla de realizar solicitudes de forma asíncrona.
 
 ```javascript
 const SHEET_ID = "1SY8CrCyX_yNpdURlXxWup_pQWJ59X9vnOGlN0yE2aow";
@@ -142,7 +167,9 @@ fetch(
 )
 ```
 
-Ahora necesitaremos mostrar los datos que obtuvimos de la API. Para esto agregaremos el siguiente código:
+Ahora necesitaremos mostrar los datos que obtuvimos de la API. Notemos que la respuesta se encuentra en formato JSON. JSON (acrónimo de JavaScript Object Notation, 'notación de objeto de JavaScript') es un formato de texto sencillo para el intercambio de datos. Normalmente en este el formato que se utiliza para comunicar datos entre el cliente y el servidor.
+
+Finalmente agregaremos el siguiente código para mostrar los datos obtenidos de la API:
 
 ```javascript
 .then(function (response) {
