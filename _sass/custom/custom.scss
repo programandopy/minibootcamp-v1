@@ -1,19 +1,37 @@
-@import "../color_schemes/cird.scss";
+ @import "../color_schemes/cird.scss";
 
 .side-bar {
   background-color: $background-color;
-  width: 0%;
 }
 
-.main {
-  margin-left: 20rem;
-  max-width: 80%;
+/* Smartphones (portrait and landscape) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  .side-bar {
+    width: 100%;
+  }
 }
+
+/* Desktops and laptops */
+@media only screen 
+and (min-width : 66.5rem) {
+  .side-bar {
+    width: 0%;
+  }
+}
+
+@media (min-width: 66.5rem) {
+  .main {
+    margin-left: 15%;
+    max-width: 100%;
+  }
+}
+
+
 
 .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
    background-image: linear-gradient(90deg, $purple-cird, $purple-cird 10%, $base-purple-cird);
-  // background-color: $background-color;
-  // background-image: none;
 }
 
 .site-title:hover {
@@ -27,8 +45,7 @@
 
 .btn-blue-cird {
   color: $white; 
-  background-color: $purple-cird; 
-  // background-image: linear-gradient(#6f55d5, #5739ce); 
+  background-color: $purple-cird;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.12);
 }
 
@@ -62,4 +79,12 @@
 
 body {
   font-family: 'Open Sans';
+}
+
+#menu-button > svg {
+  color: $white;
+}
+
+.site-button:hover {
+  background-image: none;
 }
