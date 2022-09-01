@@ -13,7 +13,7 @@ Crear los elementos mediante JavaScript puede ser más complejo pero es mucho m�
 
 # Crear elementos HTML
 
-Para crear elementos HTML, JavaScript proporciona una serie de métodos; el que vamos a utilizar es el [createElement](https://developer.mozilla.org/es/docs/Web/API/Document/createElement){:target="\_blank"}. Recibe como primer parámetro el tipo del elemento o nodo a crear, y como segundo parámetro (el cual es opcional) un objeto; este segundo parámetro se utiliza para cuando queremos definir elementos personalizados. En esta clase y en las siguientes no vamos a hacer uso de este segundo parámetro.
+Para crear elementos HTML, JavaScript proporciona una serie de métodos; el que vamos a utilizar es el [createElement](https://developer.mozilla.org/es/docs/Web/API/Document/createElement){:target="_blank"}. Recibe como primer parámetro el tipo del elemento o nodo a crear, y como segundo parámetro (el cual es opcional) un objeto; este segundo parámetro se utiliza para cuando queremos definir elementos personalizados. En esta clase y en las siguientes no vamos a hacer uso de este segundo parámetro.
 
 Algunos ejemplos sencillos:
 
