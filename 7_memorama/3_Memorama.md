@@ -501,3 +501,21 @@ armarTablero();
 
 ¡Felicidades! ¡Terminaste el juego de memoria!
 
+![Memorama](images/memorama.png)
+
+# Revisión y autoestudio
+
+Compará ambos módulos, Grid Layout y Flexbox.
+
+## Tarea - Mismo juego con Flexbox
+
+### Instrucciones
+
+Cambiá todo lo referente a Grid Layout por Flexbox. También podés usar Flexbox para centrar la grilla dentro de la pantalla.
+
+### Rúbrica
+
+| Criterios | Ejemplar | Adecuado | Necesita mejorar |
+| -------- | --------------------------------------- | ------------------------ | ------------------------------ |
+| | No hay vestigio de Grid Layout, solo Flexbox fue utilizado | Hizo una combinación de ambos módulos | No se hizo cambio alguno |
+
