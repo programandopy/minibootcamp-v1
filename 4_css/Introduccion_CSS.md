@@ -22,7 +22,7 @@ Deberías tener el HTML para tu diseño construido y listo para darle estilo.
 
 En tu carpeta de layout, creá un nuevo archivo llamado `style.css`. Importá ese archivo en la sección `<head>`:
 
-```
+```html
 <link rel="stylesheet" href="./style.css" />
 ```
 
@@ -60,7 +60,7 @@ Los estilos se heredan de un estilo antepasado a un estilo descendiente, de modo
 
 Establecé la fuente del cuerpo en una fuente determinada y verificá para ver la fuente de un elemento anidado:
 
-```
+```css
 body {
  font-family: helvetica, arial, sans-serif;
 }
