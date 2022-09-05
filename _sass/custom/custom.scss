@@ -23,7 +23,7 @@ and (min-width : 66.5rem) {
 
 @media (min-width: 66.5rem) {
   .main {
-    margin-left: 15%;
+    margin-left: 300px;
     max-width: 100%;
   }
 }
@@ -87,4 +87,8 @@ body {
 
 .site-button:hover {
   background-image: none;
+}
+
+.main-header {
+  margin-right: 2rem;
 }
