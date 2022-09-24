@@ -51,15 +51,6 @@ Por ejemplo, cuando entramos a Facebook, podemos ver los colores y el formato de
 
 Para cualquier sitio, siempre se utilizan estas herramientas de front-end. Es en el área de backend donde hay una gran variedad de opciones y herramientas que se pueden utilizar. 
 
-**La parte de backend de un sitio tiene 3 componentes:**
-
-1. El lenguaje utilizado.
-2. El marco de trabajo (framework) utilizado para ese lenguaje.
-3. La base de datos a la cual se conectan.
-
-Opciones como PHP, Node.js, Ruby/Rails, Java, Python, etc, son todas opciones viables para un sitio web.
-
-
 
 
 

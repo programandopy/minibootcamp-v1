@@ -211,16 +211,4 @@ Esta pequeña función restablece los eventos `onpointerup` y `onpointermove` pa
 
 Si bien arrastrar elementos por la pantalla parece trivial, hay muchas formas de hacerlo y muchas trampas, según el efecto que busques. De hecho, hay una [API de arrastrar y soltar](https://developer.mozilla.org/es/docs/Web/API/HTML_Drag_and_Drop_API){:target="_blank"} completa que podés probar. No lo usamos en este módulo porque el efecto que queríamos era algo diferente, pero probá esta API en tu propio proyecto y ve lo que podés lograr.
 
-## Tarea - Trabaja un poco más con DOM
-
-### Instrucciones
-
-Investigá el DOM un poco más 'adoptando' un elemento DOM. Visitá la [lista de interfaces DOM de MDN](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model){:target="_blank"} y elejí uno. Encontralo en un sitio web en la web y escribí una explicación de cómo se usa.
-
-### Rúbrica
-
-| Criterios | Ejemplar | Adecuado | Necesita mejorar |
-| -------- | --------------------------------------------- | ------------------------------------------------ | ----------------------- |
-| | Se presenta la redacción del párrafo, con ejemplo | Se presenta la redacción del párrafo, sin ejemplo | No se presenta ninguna reseña |
-
 

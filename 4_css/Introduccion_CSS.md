@@ -12,7 +12,7 @@ CSS, o Cascading Style Sheets, resuelve un problema importante del desarrollo we
 
 > Tené en cuenta que CSS es un lenguaje que evoluciona, como todo en la web, y no todos los navegadores admiten partes más nuevas de la especificación. Siempre verificá tus implementaciones consultando [CanIUse.com](caniuse.com){:target="_blank"}.
 
-En esta lección, agregaremos estilos a nuestro diseño de detalle de un producto en línes y aprenderemos más sobre varios conceptos de CSS: la cascada, la herencia y el uso de selectores, posicionamiento y uso de CSS para crear diseños. En el proceso, diseñaremos el layout y crearemos la interfaz en sí.
+En esta lección, agregaremos estilos a nuestro diseño de detalle de un producto en líneas y aprenderemos más sobre varios conceptos de CSS: la cascada, la herencia y el uso de selectores, posicionamiento y uso de CSS para crear diseños. En el proceso, diseñaremos el layout y crearemos la interfaz en sí.
 
 ## Requisito previo:
 
@@ -261,14 +261,12 @@ CSS parece engañosamente sencillo, pero existen muchos desafíos cuando se trat
 
 Lectura adicional: [Diseñá tu aplicación HTML con CSS](https://docs.microsoft.com/es-mx/learn/modules/build-simple-website/4-css-basics?WT.mc_id=academic-13441-cxa){:target="_blank"}
 
-## Tarea - Refactorización CSS
+## Tarea - Cambio de estilos
 
-### Instrucciones
-
-Cambiá el estilo del diseño usando Flexbox o CSS Grid, y tomá capturas de pantalla para mostrar que lo probaste en varios navegadores. Es posible que debas cambiar el marcado, así que creá una nueva versión de la aplicación para su refactorización. No te preocupes por hacer que los elementos se puedan arrastrar; sólo refactorizá el HTML y CSS por ahora.
+Para esta tarea, vamos a cambiar un poco los estilos que usamos en el proyecto. Podés cambiar los colores, bordes o tamaños de las cosas. Jugá con el diseño para personalizarlo un poco.
 
 ### Rúbrica
 
 | Criterios | Ejemplar                                                         | Adecuada                      | Necesita mejorar                    |
 | -------- | ----------------------------------------------------------------- | ----------------------------- | ------------------------------------ |
-|          | Presenta un diseño completamente rediseñado usando Flexbox o CSS Grid | Modificó algunos de los elementos | No cambió el estilo del diseño en absoluto |
+|          | Cambia el estilo de almenos 4 elementos | Modificó 2 o 3 elementos | No cambió el estilo del diseño en absoluto |

@@ -25,7 +25,7 @@ Ahora, copiemos en el documento de texto lo siguiente:
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Mi Portfolio</title>
+   <title>Hola mundo</title>
 </head>
 <body>
    <h1>Hola Mundo</h1>

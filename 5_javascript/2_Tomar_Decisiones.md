@@ -2,7 +2,7 @@
 title: Tomar Decisiones
 has_children: false
 parent: Introducción a JavaScript
-nav_order: 3
+nav_order: 2
 ---
 
 # Conceptos básicos de JavaScript: tomar decisiones
@@ -168,38 +168,22 @@ Más información sobre los muchos operadores disponibles para el usuario [en MD
 
 ### Instrucciones
 
-Jugá con los operadores. Aquí hay una sugerencia de un programa que podés implementar: un conjunto de estudiantes con dos sistemas de calificación diferentes.
-
-#### **Primer sistema de calificación**
-
-Un sistema de calificación se define como calificaciones del 1 al 5, donde 3 y más significa que aprueba el curso.
-
-#### **Segundo sistema de calificación**
-
-El otro sistema de calificaciones tiene las siguientes calificaciones `A, A-, B, B-, C, C-` donde `A` es la calificación más alta y `C` es la calificación más baja para aprobar.
+Para practicar los conceptos aprendidos, vamos a aplicarlos en un pequeño programa para conocer si el mayor de una serie de numeros.
 
 ### La tarea
 
-Dada la siguiente matriz `totalEstudiantes` que representa a todos los estudiantes y sus calificaciones, construí una nueva matriz `estudiantesQuePasaron` que contenga a todos los estudiantes que aprobaron.
-
-> SUGERENCIA, usá un bucle for y if ... else y operadores de comparación:
-
+Dadas las siguientes tres variables, escribí un programa que imprima en la consola cual es el número más grande.
 
 ```javascript
-let totalEstudiantes = [
-  'A',
-  'B-'
-  1,
-  4
-  5,
-  2
-]
-
-let estudiantesQuePasaron = [];
+let num1 = 1;
+let num2 = 2;
+let num3 = 3;
 ```
+
+> SUGERENCIA, podés empezar escribiendo un programa que determine cual es el mas grande entre las variables `num1` y `num2`, dejando de lado la tercera variable por ahora. Si esto funciona correctamente, modificá el código para considerar el tercer numero.
 
 ### Rúbrica
 
 | Criterios | Ejemplar | Adecuado | Necesita mejorar |
 | -------- | ------------------------------ | ----------------------------- | ------------------------------- |
-| | Se presenta la solución completa | Se presenta solución parcial | Se presenta solución con errores |
+| | Se presenta la solución completa | Se presenta solución parcial (comparando dos numeros) | Se presenta solución con errores |

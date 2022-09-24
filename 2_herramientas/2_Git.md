@@ -90,7 +90,7 @@ Ve a [GitHub.com](https://github.com/){:target="_blank"} y creá una cuenta si a
 
 ## Preparación
 
-Vas a necesitar una directorio con un proyecto de código en tu máquina local (computadora portátil o PC) y un repositorio público en GitHub, que te servirá como ejemplo de cómo contribuir a los proyectos de otros.
+Vas a necesitar un directorio con un proyecto de código en tu máquina local (computadora portátil o PC) y un repositorio público en GitHub, que te servirá como ejemplo de cómo contribuir a los proyectos de otros.
 
 ---
 
