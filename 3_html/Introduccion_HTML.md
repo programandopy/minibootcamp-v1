@@ -226,17 +226,3 @@ Agregá este código encima de la última etiqueta `</div>`:
 # Revisión y estudio
 
 HTML es el sistema de bloques de construcción 'probado y verdadero' que ha ayudado a convertir la web en lo que es hoy. Aprendé un poco sobre su historia estudiando algunas etiquetas antiguas y nuevas. ¿Podés averiguar por qué algunas etiquetas quedaron obsoletas y otras se agregaron? ¿Qué etiquetas podrían introducirse en el futuro?
-
-## Tarea - Practicá tu HTML: creá una maqueta de blog
-
-### Instrucciones
-
-Imaginá que estás diseñando o rediseñando tu sitio web personal. Creá mockup del mismo y luego el HTML que usarías para construir los diversos elementos que componen al mismo. Podés hacer esto en papel y escanearlo, o usar el software de tu elección, solo asegurate de codificar manualmente todo el HTML.
-
-![Proceso de maquetado](images/mockup.jpeg)
-
-### Rúbrica
-
-| Criterios | Ejemplar | Adecuado | Necesita mejorar |
-| -------- | -------------------------------------------------- --------------------------------- | -------------------------------------------------- ------------------------------ | -------------------------------------------------- ------------------------------- |
-| | El diseño de un blog se representa visualmente con al menos 10 elementos de marcado mostrados | Un diseño de blog se representa visualmente con alrededor de 5 elementos de marcado mostrados | El diseño de un blog se representa visualmente con un máximo de 3 elementos de marcado mostrados |

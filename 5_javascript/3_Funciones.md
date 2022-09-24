@@ -2,7 +2,7 @@
 title: Funciones
 has_children: false
 parent: Introducción a JavaScript
-nav_order: 2
+nav_order: 3
 ---
 
 # Conceptos básicos de JavaScript: funciones
@@ -178,7 +178,7 @@ setTimeout(function() {
 Si ejecutás este nuevo código, notarás que obtenemos los mismos resultados. ¡Hemos creado una función, pero no teníamos que darle un nombre!
 
 
-# Funciones de fecha ancha (Fat arrow functions)
+# Funciones de flecha ancha (Fat arrow functions)
 
 Un atajo común en muchos lenguajes de programación (incluido JavaScript) es la capacidad de usar lo que se llama una función de **flecha** o **flecha ancha**. Utiliza un indicador especial de `=>`, que parece una flecha, ¡de ahí el nombre! Al usar `=>`, podemos omitir la palabra clave `función`.
 
@@ -212,5 +212,25 @@ Ve si podés crear una función que tenga una combinación de parámetros y par�
 | Criterios | Ejemplar | Adecuado | Necesita mejorar |
 | -------- | -------------------------------------------------- ------------------------------------ | -------------------------------------------------- -------------- | ----------------- |
 | | La solución se ofrece con dos o más funciones de buen rendimiento con diversos parámetros | La solución de trabajo se ofrece con una función y pocos parámetros | La solución tiene errores |
+
+## Tarea - Refactor de programa para comparar numeros
+
+### Instrucciones
+
+En la tarea del apartado anterior hicimos un programa que compara tres numeros para determinar cual es el mayor. 
+
+Ahora necesitamos poder utilizar esa lógica en diversas secciones de una aplicación. Para ello, necesitamos hacer un `refactor` del código.
+
+Cambia el código para que toda la lógica este contenida en una función que permita hacer lo siguiente:
+
+```javascript
+console.log(cualEsMayor(1,2,3))
+```
+
+### Rúbrica
+
+| Criterios | Ejemplar | Adecuado | Necesita mejorar |
+| -------- | -------------------------------------------------- ------------------------------------ | -------------------------------------------------- -------------- | ----------------- |
+| | Se declara una funcion que funciona correctamente tomando tres parámetros | Solución parcial, con parametros incompletos, pero se llega al resultado | La solución tiene errores |
 
 

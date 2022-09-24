@@ -5,3 +5,11 @@ search_enabled: false
 logo: "/assets/images/logo.png"
 heading_anchors: true
 color_scheme: cird
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+  important:
+    title: Importante
+    color: blue
