@@ -7,15 +7,65 @@ nav_order: 1
 
 # Editores
 
-Una de las herramientas más importantes para el desarrollo de software es el editor. Los editores son el lugar donde escribes tu código y, a veces, donde lo ejecutaras.
+Una de las herramientas más importantes para el desarrollo de software es el editor. Los editores son el lugar donde escribís el código.
 
-Los desarrolladores confían en los editores por algunas razones adicionales:
+Hagamos algunos experimentos para entender que es un editor y como se usa para escribir un programa.
+
+### Tarea: Escribiendo un programa
+
+Empecemos por crear un archivo nuevo en el escritorio, haciendo clic derecho sobre el escritorio, llendo a "nuevo" y seleccionando "Documento de texto".
+
+Esto crea un documento nuevo en el escritorio, que se llama `Nuevo documento de texto.txt`, en este punto podemos renombrar el archivo a `prueba.txt`.
+
+Al hacer doble clic sobre el documento nuevo, se abre el block de notas o el notepad, donde vamos a poder editar el documento. Estos programas son editores de texto, y sirven para escribir lo que se llama texto plano, es decir sin formato.
+
+Ahora, copiemos en el documento de texto lo siguiente:
+
+``` javascript
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Mi Portfolio</title>
+</head>
+<body>
+   <h1>Hola Mundo</h1>
+</body>
+</html>
+```
+Guardamos los cambios haciendo `ctrl+s`, o llendo a "archivo -> guardar".
+
+Ahora podemos abrir este documento en cualquier navegador para ver que pasa. Hacemos esto haciendo clic derecho sobre el documento, llendo a al menú "abrir con" y seleccionando el navegador, o simplemente abriendo el navegador web y arrastrando el documento hasta cualquier parte del mismo.
+
+Lo que pasa, es que se abre el documento y podemos ver exactamente lo que escribimos. Como el navegador no es un editor de texto, solo podemos leer el documento. 
+
+Hasta ahora todo funciona correctamente, salvo que el navegador piensa que esta mostrando un documento de texto, cuando lo que escribimos en realidad es un programa.
+
+Le hacemos saber esto al navegador mediante la **extensión** del archivo, que es lo que viene despues del punto en el nombre. En este caso, la extensión es `.txt`, que significa que se trata de un texto normal.
+
+Cambiemos el nombre del archivo, para que el navegador sepa que se trata de un programa. En este caso, el código que copiamos está escrito en un lenguaje llamado **HTML**. Renombrá el archivo a `prueba.html`.
+
+Ahora podemos abrir el archivo simplemente haciendo doble clic sobre él, y se abrirá en el navegador, que esta vez sabe que *le estamos hablando en su idioma, HTML*, y podrá interpretar correctamente el programa.
+
+## Editores de texto especializados
+
+Como pudimos ver, es posible escribir un programa utilizando cualquier editor de texto. Sin embargo, a medida que el programa se vuelve más largo y grande, se hará más difícil encontrar errores o hacer cambios en secciones específicas del mismo.
+
+Para resolver este problema, los desarrolladores utilizan editores de texto especializados, que nos dan algunas ventajas como:
 
 - *Depuración* - Descubrimiento de errores al recorrer el código, línea por línea. Algunos editores tienen capacidades de depuración o se pueden personalizar y agregar para lenguajes de programación específicos.
 - *Resaltado de sintaxis* - Agrega colores y formato de texto al código, lo hace más fácil de leer. La mayoría de los editores permiten el resaltado de sintaxis personalizado.
 - *Extensiones e integraciones del navegador*  -  Adiciones especializadas para desarrolladores, por desarrolladores, para acceder a herramientas adicionales que no están integradas en el editor base. Por ejemplo, muchos desarrolladores también necesitan una forma de documentar su código y explicar cómo funciona, e instalarán una extensión de revisión ortográfica para verificar si hay errores. La mayoría de estas adiciones están diseñadas para usarse dentro de un editor específico, y la mayoría de los editores vienen con una forma de buscar extensiones disponibles.
 - *Personalización*  - La mayoría de los editores son extremadamente personalizables, y cada desarrollador tendrá su propio entorno de desarrollo único que se adapta a sus necesidades. Muchos también permiten a los desarrolladores crear su propia extensión.
 
+### Tarea: Instalando Visual Studio Code
+
+Visual Studio Code, es uno de los editores más populares y el que vamos a utilizar en este curso.
+
+Para instalarlo, entra a la página web de descarga con el siguiente [link](https://code.visualstudio.com/download), descargalo e instalá el programa.
+
+Una vez instalado, abrí el programa que escriste haciendo clic derecho sobre el, llendo a "abrir con" y seleccionando *Visual Studio Code* de la lista.
+
+Al abrirse, vemos que el archivo se abre y podemos notar rápidamente las diferencias con el resaltado de sintaxis. Más adelante vamos a explorar otras ventajas y que nos ofrecen estos editores.
 
 ## Editores populares y extensiones de desarrollo web
 
@@ -27,8 +77,6 @@ Los desarrolladores confían en los editores por algunas razones adicionales:
   - [Code Spell Checker para Atom](https://atom.io/packages/spell-check){:target="_blank"}
   - [Teletype](https://atom.io/packages/teletype){:target="_blank"}
   - [atom-beautify](https://atom.io/packages/atom-beautify){:target="_blank"}
-
-* Teletype: Es una extension que nos permite colaborar en un mismo espacio de trabajo entre muchas personas.
 
 # Navegadores
 
