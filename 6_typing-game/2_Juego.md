@@ -134,7 +134,7 @@ Empezamos crando un nuevo archivo llamado **style.css** y agregamos el siguiente
 
 Con nuestra interfaz de usuario creada, es hora de centrar nuestra atención en el JavaScript para proporcionar la lógica de nuestro juego. Vamos a dividir esto en varios pasos:
 
-- [Crear las constantes](/5_javascript/1_DataTypes.html#constantes)
+- [Crear las constantes](../5_javascript/1_DataTypes.html#constantes)
 - [Event Listener para iniciar el juego](#como-iniciar-el-juego)
 - [Event Listener para escribir](#control-del-juego)
 
