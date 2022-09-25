@@ -39,7 +39,7 @@ Git es un sistema de control de versiones distribuido. Esto quiere decir que cad
 
 ## Instalación de Git
 
-Existen muchas formas de usar Git. Por un lado tenemos las herramientas originales de línea de comandos, y por otro lado tenemos una gran variedad de interfaces de usuario con distintas capacidades. Nosotros vamos a usar la línea de comandos, del cual ya se habló en la sección de [Herramientas](/2_herramientas/1_Herramientas.html#opciones-de-l%C3%ADnea-de-comandos-cli-populares){:target="_blank"}.
+Existen muchas formas de usar Git. Por un lado tenemos las herramientas originales de línea de comandos, y por otro lado tenemos una gran variedad de interfaces de usuario con distintas capacidades. Nosotros vamos a usar la línea de comandos, del cual ya se habló en la sección de [Herramientas](../2_herramientas/1_Herramientas.html#opciones-de-l%C3%ADnea-de-comandos-cli-populares){:target="_blank"}.
 
 ### Linux
 Para  instalar Git en Linux en  general puedes hacerlo mediante la herramienta básica de administración de paquetes que trae tu distribución. Si estás en Fedora por ejemplo, puedes usar `yum`:
@@ -53,7 +53,7 @@ Si estás en una distribución basada en Debian como Ubuntu, puedes usar `apt-ge
 $ apt-get install git
 ```
 
-Para opciones adicionales, la [página web de Git](http://git-scm.com/download/linux){:target="_blank"} tiene instrucciones de instalación en diferentes tipos de Unix.
+Para opciones adicionales, la [página web de Git](http://git-scm.com/download){:target="_blank"} tiene instrucciones de instalación en diferentes tipos de Unix.
 
 ### Windows
 La forma más oficial está disponible para ser descargada en el sitio web de Git. Solo tienes que visitar [http://git-scm.com/download/win](http://git-scm.com/download/win){:target="_blank"}.
