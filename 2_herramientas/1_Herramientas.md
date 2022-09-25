@@ -61,7 +61,7 @@ Para resolver este problema, los desarrolladores utilizan editores de texto espe
 
 Visual Studio Code, es uno de los editores más populares y el que vamos a utilizar en este curso.
 
-Para instalarlo, entra a la página web de descarga con el siguiente [link](https://code.visualstudio.com/download), descargalo e instalá el programa.
+Para instalarlo, entra a la página web de descarga con el siguiente [link](https://code.visualstudio.com/download){:target="_blank"}, descargalo e instalá el programa.
 
 Una vez instalado, abrí el programa que escriste haciendo clic derecho sobre el documento, y luego clic en el menú "abrir con" y seleccionando *Visual Studio Code* de la lista.
 
