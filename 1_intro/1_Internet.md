@@ -5,7 +5,7 @@ parent: Introducción a la programación
 ---
 
 # ¿Cómo funciona Internet?
-![internet](images/undraw_connected_world_wuay.png)
+![internet](images/internet-1.png)
 
 Antes de que podamos empezar a aprender sobre todas las tecnologías y herramientas a ser utilizadas en este curso, necesitamos aprender:
 
@@ -20,7 +20,7 @@ La dirección IP permite a los servidores identificar a qué sitio web queremos 
 
 En un nivel muy básico, **Internet es básicamente la conexión de cables a computadoras con un protocolo específico.** 
 
-![navegador](images/navegador.jpeg)
+![navegador](images/network.png)
 
 Si tu solicitud llega al servidor, este responde enviando de vuelta el sitio web que solicitaste. Como el contenido que solicitaste es muy grande y no se puede enviar de una sola vez, el servidor envía el contenido solicitado en diferentes **paquetes de datos**, que luego se vuelven a juntar para armar el contenido nuevamente.
 
@@ -34,7 +34,7 @@ Hay dos componentes principales de un sitio web: La parte **Front-End** de un si
 
 La front-end es la **parte que el usuario puede ver en el sitio** (lo que se ve), y el back-end es **la parte encargada de los mecanismos y la lógica** (lo que no se ve).
 
-![front-vs-back](images/frontend-vs-backend.png)
+![front-vs-back](images/frontend-backend-iceberg.png)
 
 Por ejemplo, cuando entramos a Facebook, podemos ver los colores y el formato del contenido, eso sería la parte del front-end; la parte del back-end es la que decide qué contenido mostrar, y saca toda esta información alojada en una base de datos. 
 
