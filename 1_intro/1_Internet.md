@@ -16,7 +16,7 @@ Antes de que podamos empezar a aprender sobre todas las tecnologías y herramien
 
 Al escribir la dirección de cualquier sitio, **la computadora envía una solicitud como un paquete que incluye la dirección IP del sitio web al cual querés acceder.** Una dirección IP es un identificador de la red. 
 
-La dirección IP permite a los servidores identificar a qué sitio web queremos tener acceso, y **manda las solicitudes a través de cables o satelites que eventualmente se conectan a cables utilizando tu servicio de Internet.**
+La dirección IP permite a los servidores identificar a qué sitio web queremos tener acceso, y **manda las solicitudes a través de cables o satelites que eventualmente se conectan a cables utilizando tu servicio de Internet.** 
 
 En un nivel muy básico, **Internet es básicamente la conexión de cables a computadoras con un protocolo específico.** 
 
@@ -38,20 +38,24 @@ La front-end es la **parte que el usuario puede ver en el sitio** (lo que se ve)
 
 Por ejemplo, cuando entramos a Facebook, podemos ver los colores y el formato del contenido, eso sería la parte del front-end; la parte del back-end es la que decide qué contenido mostrar, y saca toda esta información alojada en una base de datos. 
 
+### Tecnologías del Frontend
 **La parte de front-end usualmente requiere el uso de estas tres tecnologías:**
-1. HTML
-2. CSS
-3. Javascript
+![tecnologias-frontend](images/html-css-jscript.png)
 
-* HTML significa lenguaje de marcado de hipertexto, y se usa en todas las páginas web. Es la estructura del sitio y podés verla al hacer click derecho en cualquier parte de la página y seleccionando inspeccionar, o ver código fuente.
+#### HTML - El esqueleto 
+HTML ("Hypertext Markup Language") no es un lenguaje de programación. Es un lenguaje de marcado que le dice a los navegadores web cómo estructurar las páginas web que estás visitando.
 
-* CSS significa Cascading Style Sheets. Con CSS se definen cuestiones del sitio web como colores, fuentes, bordes, etc. Casi todos los sitios web lo tienen para que luzcan lindos.
+En su corazón, HTML es un lenguaje muy sencillo compuesto de elementos, que se pueden aplicar a piezas de texto para darles un significado diferente en un documento (¿Esto es un párrafo? ¿Esto es una lista con viñetas? ¿Esto es parte de una tabla?), estructura un documento en secciones lógicas (¿Tiene una cabecera? ¿Tres columnas de contenido? ¿Un menú de navegación?), e incrusta contenido como imágenes y vídeos en una página. Este módulo introducirá los dos primeros de estos, e introduce conceptos fundamentales y la sintaxis que necesitas para entender HTML.
 
-* Javascript nos permite interactuar con el sitio web. Sin javascript, el sitio no seria interactivo y quedaria como un un documento simple, sin botones, movimiento o acciones. 
+#### CSS
 
-Para cualquier sitio, siempre se utilizan estas herramientas de front-end. Es en el área de backend donde hay una gran variedad de opciones y herramientas que se pueden utilizar. 
-
+Las Hojas de estilo en cascada (del ingles Cascading Stylesheets CSS) es la siguiente tecnología que aprenderemos después de HTML. Mientras que HTML se utiliza para definir la estructura y la semántica del contenido, CSS se usa para darle estilo y posicionarlo visualmente. CSS se puede usar, por ejemplo, para cambiar la fuente, el color, el tamaño y el espaciado del contenido, para formar multiples columnas, añadir animaciones y otros elementos decorativos.
 
 
+#### Javascript
+JavaScript es un lenguaje de programación que te permite implementar cosas complejas en páginas web. Cada vez que una página web hace algo más que sentarse ahí y mostrar información estática para que la veas — mostrando actualizaciones de contenido oportunas, mapas interactivos, gráficos animados 2D/3D, desplazando máquinas reproductoras de video, o más, puedes apostar que probablemente JavaScript esté involucrado .
 
+
+Para cualquier sitio, siempre se utilizan estas herramientas de front-end. 
+Es en el área de backend donde hay una gran variedad de opciones y herramientas que se pueden utilizar. 
 
