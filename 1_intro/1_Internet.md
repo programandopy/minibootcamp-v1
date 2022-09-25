@@ -5,7 +5,7 @@ parent: Introducción a la programación
 ---
 
 # ¿Cómo funciona Internet?
-![internet](images/internet.png)
+![internet](images/undraw_connected_world_wuay.png)
 
 Antes de que podamos empezar a aprender sobre todas las tecnologías y herramientas a ser utilizadas en este curso, necesitamos aprender:
 
