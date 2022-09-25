@@ -7,13 +7,13 @@ nav_order: 1
 
 # Editores
 
-Una de las herramientas más importantes para el desarrollo de software es el editor. Los editores son el lugar donde escribís el código.
+Una de las herramientas más importantes para el desarrollo de software es el editor. Los editores son procesadores de texto donde escribís el código.
 
-Hagamos algunos experimentos para entender que es un editor y como se usa para escribir un programa.
+Hagamos algunos experimentos para entender que es un editor y cómo se usa para escribir un programa.
 
 ### Tarea: Escribiendo un programa
 
-Empecemos por crear un archivo nuevo en el escritorio, haciendo clic derecho sobre el escritorio, llendo a "nuevo" y seleccionando "Documento de texto".
+Empecemos por crear un archivo nuevo en el escritorio, haciendo clic derecho sobre el escritorio, y luego sobre "nuevo" y seleccionando "Documento de texto".
 
 Esto crea un documento nuevo en el escritorio, que se llama `Nuevo documento de texto.txt`, en este punto podemos renombrar el archivo a `prueba.txt`.
 
@@ -32,9 +32,9 @@ Ahora, copiemos en el documento de texto lo siguiente:
 </body>
 </html>
 ```
-Guardamos los cambios haciendo `ctrl+s`, o llendo a "archivo -> guardar".
+Guardamos los cambios haciendo `ctrl+s`, o haciendo clic en el menú "archivo -> guardar".
 
-Ahora podemos abrir este documento en cualquier navegador para ver que pasa. Hacemos esto haciendo clic derecho sobre el documento, llendo a al menú "abrir con" y seleccionando el navegador, o simplemente abriendo el navegador web y arrastrando el documento hasta cualquier parte del mismo.
+Ahora podemos abrir este documento en cualquier navegador para ver que pasa. Hacemos esto haciendo clic derecho sobre el documento, y luego clic en el menú "abrir con" y seleccionando el navegador, o simplemente abriendo el navegador web y arrastrando el documento hasta cualquier parte del mismo.
 
 Lo que pasa, es que se abre el documento y podemos ver exactamente lo que escribimos. Como el navegador no es un editor de texto, solo podemos leer el documento. 
 
@@ -63,7 +63,7 @@ Visual Studio Code, es uno de los editores más populares y el que vamos a utili
 
 Para instalarlo, entra a la página web de descarga con el siguiente [link](https://code.visualstudio.com/download), descargalo e instalá el programa.
 
-Una vez instalado, abrí el programa que escriste haciendo clic derecho sobre el, llendo a "abrir con" y seleccionando *Visual Studio Code* de la lista.
+Una vez instalado, abrí el programa que escriste haciendo clic derecho sobre el documento, y luego clic en el menú "abrir con" y seleccionando *Visual Studio Code* de la lista.
 
 Al abrirse, vemos que el archivo se abre y podemos notar rápidamente las diferencias con el resaltado de sintaxis. Más adelante vamos a explorar otras ventajas y que nos ofrecen estos editores.
 
