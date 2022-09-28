@@ -2,6 +2,7 @@
 title: Introducción a HTML
 has_children: false
 nav_order: 4
+has_toc: true
 ---
 
 # Proyecto de Diseño Parte 1: Introducción a HTML

@@ -2,15 +2,18 @@
 title: Cómo funciona Internet
 has_children: false
 parent: Introducción a la programación
+
 ---
 
 # ¿Cómo funciona Internet?
+{: .no_toc }
 ![internet](images/internet-1.png)
+
 
 Antes de que podamos empezar a aprender sobre todas las tecnologías y herramientas a ser utilizadas en este curso, necesitamos aprender:
 
-1. Cómo funciona la web, 
-2. Y qué constituye exactamente el desarrollo Full Stack.
+1. TOC
+{:toc}
 
 ## ¿Qué pasa cuándo abrimos el navegador y visitamos una página web?
 

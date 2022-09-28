@@ -2,7 +2,7 @@
 title: Conceptos avanzados
 has_children: true
 nav_order: 8
-has_toc: false
+has_toc: true
 ---
 
 Vamos a crear otro juego ahora, para ello vamos a utilizar todos los conceptos aprendidos hasta acá y vamos a sumar algunos otros como son:

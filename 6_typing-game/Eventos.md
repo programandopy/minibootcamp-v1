@@ -2,7 +2,7 @@
 title: Eventos en JavaScript
 has_children: true
 nav_order: 7
-has_toc: false
+has_toc: true
 ---
 
 Usualmente cuando creamos una aplicación para nuestro navegador creamos lo que se conoce como una "Interfaz Gráfica de Usuario" (GUI por sus siglas en inglés, Graphic User Interface) para interactuar con el usuario. De esta manera el usuario puede comunicarse con nuestro programa a través de "clicks" en diferentes elementos de nuestro programa o ingresando texto, por ejemplo.

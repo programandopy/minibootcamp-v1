@@ -2,6 +2,8 @@
 title: Introducción a CSS
 has_children: false
 nav_order: 5
+has_toc: true
+
 ---
 
 # Proyecto de Diseño Parte 2: Introducción a CSS

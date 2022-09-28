@@ -2,7 +2,7 @@
 title: Menú App
 has_children: false
 nav_order: 9
-has_toc: false
+has_toc: true
 ---
 # Creación de aplicación menú
 
