@@ -21,16 +21,11 @@ Google sheets es una aplicación para manejo de hojas de cálculo (similar a Exc
 
 Necesitaremos crear tres archivos: uno para nuestro markup: `index.html`, uno para nuestros estilos: `style.css`, y uno para nuestros scripts: `scripts.js`.
 
-```bash
-# Linux o macOS
-mkdir menu-app && cd menu-app
-# Windows
-md menu-app && cd menu-app
-```
+Primero vamos a crear la carpeta `menu-app` que contendrá estos archivos.
 
-Abrimos el Visual Studio Code, y luego la carpeta menu-app.
+Abrimos el Visual Studio Code, y luego la carpeta `menu-app`.
 
-Creamos los tres archivos mencionados dentro de la carpeta menu-app.
+Creamos los tres archivos mencionados dentro de la carpeta `menu-app`.
 
 * index.html
 * style.css
@@ -279,10 +274,10 @@ Si querés saber más sobre API's REST, te recomendamos [esta lectura](https://d
 
 # Tarea
 
-Citar y describir brevemente cuáles son los métodos HTTP más utilizados en API’s REST.
+Agregar una columna al sheet del cual se obtienen los datos (por ejemplo si es dulce o salado) y mostrarla en la interfaz gráfica.
 
 ## Rúbrica
 
 | Criterios | Ejemplar | Adecuado | Necesita mejorar |
 | -------- | --------------------------------------------- | ------------------------------------------------ | ----------------------- |
-| | Se citan y explican los métodos correctamente | Se citan los métodos pero no se explican | No se presentan los métodos |
+| | Se muestra el dato nuevo correctamente | Se obtiene correctamente el nuevo dato pero no se muestra | No se muestra el nuevo dato|
