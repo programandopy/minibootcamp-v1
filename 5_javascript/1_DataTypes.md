@@ -51,6 +51,8 @@ console.log("Hola Mundo");
 
 Ahora abrí la pagina web del proyecto y abrí la consola, deberias poder ver el mensaje que escribiste.
 
+---
+
 # Variables
 
 Las variables son objetos que almacenan valores en la computadora, para que podamos volver a usarlos mas tarde.
@@ -104,6 +106,8 @@ Para crear o **declarar** una variable usamos la siguiente sintaxis **[keyword] 
 
     ✅ ¡Probá! Podés escribir JavaScript directamente en tu navegador. Abrí una ventana del navegador y navegá hasta Herramientas de desarrollo. En la consola, encontrarás un mensaje; escribí `let miVariable = 123`, presioná retorno (enter), luego escribí `miVariable`. ¿Qué pasa? Tené en cuenta que aprenderás más sobre estos conceptos en lecciones posteriores.
 
+---
+
 # Constantes
 
 La declaración e inicialización de una constante sigue los mismos conceptos que una variable, con la excepción de la palabra clave `const`. Las constantes se declaran normalmente con todas las letras mayúsculas, esto es lo que se llama una *convención de nombre*.
@@ -123,6 +127,8 @@ Las constantes son similares a las variables, con dos excepciones:
       ```
 
    > Tené en cuenta que `const` significa que la referencia está protegida contra la reasignación. Sin embargo, algunas estructuras complejas que pueden declararse como costantes permiten que se cambie alguno de sus valores.
+
+---
 
 # Tipos de datos
 
@@ -208,6 +214,7 @@ Los booleanos pueden tener solo dos valores: `true` (verdadero) o `false` (falso
 `let age = 1; let Age = 2; age == Age` 
 (resuelve `false` - ¿por qué?). ¿Qué otras trampas podés encontrar?
 
+---
 
 # Revisión y autoestudio
 

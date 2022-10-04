@@ -9,6 +9,8 @@ nav_order: 3
 
 También llamado Juego de Memoria, consiste en ir descubriendo pares de elementos iguales que se encuentran escondidos. En cada tirada se destapan dos elementos que se vuelven a esconder si no coinciden. El objetivo es descubrir todas las parejas. Este juego puede ser jugado contra un rival, o a contratiempo. Nosotros lo vamos a hacer sencillo, vamos a utilizar diversas razas de perros para nuestro proyecto de ejemplo.
 
+---
+
 # Nuestros Archivos
 
 Para ello como siempre vamos a crear una carpeta y tener en ella nuestros 3 archivos, tal y como lo venimos haciendo desde el inicio.
@@ -16,6 +18,8 @@ Para ello como siempre vamos a crear una carpeta y tener en ella nuestros 3 arch
   - index.html
   - script.js
   - style.css
+
+---
 
 # HTML Base
 
@@ -44,6 +48,7 @@ Vamos a utilizar los conceptos vistos en las secciones anteriores de esta clase,
   </body>
 </html>
 ```
+---
 
 # CSS Base
 
@@ -161,6 +166,8 @@ También podemos agregar un efecto cuando hacemos pasar el cursor sobre la image
 ```
 
 Ya tenemos todo lo referente a estilos listo, pasemos a la lógica.
+
+---
 
 # JavaScript - Lógica del juego
 
@@ -426,7 +433,8 @@ if (primeraTarjetaSeleccionadaIndex == segundaTarjetaSeleccionadaIndex) {
 ```
 ¿Qué pasa acá? sabemos que `setAttribute("src", "images/pattern.png")` pone la imagen del patrón por defecto, pero ¿en quién? Para saber en qué imagen es que hacemos uso del array de todas las imágenes del tablero. Sabemos que en `cartasSeleccionadas` guardábamos el índice de cada carta, como ambos arrays coinciden, el index del array `tarjetas` puede ser utilizado para referenciar en el array `listaTarjetas`.
 
-![lógica](images/logica.png)
+![lógica](images/logica.png){: width="650" }{: .center-image}
+
 
 
 ### Condicionales - Par encontrado
@@ -501,7 +509,9 @@ armarTablero();
 
 ¡Felicidades! ¡Terminaste el juego de memoria!
 
-![Memorama](images/memorama.png)
+![Memorama](images/memorama.png){: width="650" }{: .center-image}
+
+---
 
 # Revisión y autoestudio
 

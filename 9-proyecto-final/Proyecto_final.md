@@ -268,6 +268,8 @@ function onRegistrarGasto() {
 
 Y listo. Tenemos nuestra aplicación para registrar gastos.
 
+---
+
 # Desafío
 
 Crea tu propia aplicación web. ¿Cuál es el problema que querés resolver? Seguí los pasos de esta clase:

@@ -12,7 +12,7 @@ Un programa puede ser cualquier cosa que esté escrita con código; Los sitios w
 
 ✅ Busca en google: ¿quién fue el primer programador/a informático del mundo?
 
-
+---
 # ¿Qué es lenguaje de programación?
 
 Los lenguajes de programación permiten a los desarrolladores escribir instrucciones para una computadora. Las computadoras solo pueden entender valores binarios (1 y 0) y, para la mayoría de los desarrolladores, esa no es una forma muy eficiente de comunicarse. Los lenguajes de programación son el vehículo para la comunicación entre humanos y computadoras.

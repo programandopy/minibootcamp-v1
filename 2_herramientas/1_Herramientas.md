@@ -78,6 +78,8 @@ Al abrirse, vemos que el archivo se abre y podemos notar rápidamente las difere
   - [Teletype](https://atom.io/packages/teletype){:target="_blank"}
   - [atom-beautify](https://atom.io/packages/atom-beautify){:target="_blank"}
 
+---
+
 # Navegadores
 
 Otra herramienta esencial es el navegador. Los desarrolladores Web confían en el navegador para observar cómo se ejecuta su código. También se usa para ver elementos visuales de una página web que están escritos en el editor, como HTML.
@@ -90,9 +92,13 @@ Muchos navegadores vienen con *herramientas para desarrolladores* (DevTools) que
 - [Chrome](https://developers.google.com/web/tools/chrome-devtools/){:target="_blank"}
 - [Firefox](https://developer.mozilla.org/docs/Tools){:target="_blank"}
 
+---
+
 # Herramientas de línea de comandos (CLI)
 
 Algunos desarrolladores prefieren una vista menos gráfica para sus tareas diarias y confían en la línea de comandos **(CLI)** para lograrlo. El desarrollo de código requiere una gran cantidad de escritura, y algunos desarrolladores prefieren no interrumpir su flujo de trabajo con el teclado es por eso que usan atajos(shortcuts) para cambiar entre ventanas de escritorio, trabajar en diferentes archivos y usar herramientas. La mayoría de las tareas se pueden completar con un mouse, pero una de las ventajas de utilizar la línea de comandos es que se pueden hacer muchas cosas sin la necesidad de cambiar entre el mouse y el teclado. Otro beneficio de esta es que son configurables, puedes guardar tu configuración personalizada, asi como tambien cambiarla más tarde o importarla a nueva máquina. Debido a que los entornos son tan exclusivos para cada desarrollador, algunos evitarán usar la línea de comandos, algunos dependerán de ella por completo asi como tambien otros pueden preferir una combinación de ambos.
+
+---
 
 # Opciones de línea de comandos (CLI) populares
 
@@ -124,6 +130,8 @@ Las opciones para la línea de comando varian según el sistema operativo que ut
 - [Git](https://git-scm.com/){:target="_blank"} (💻 en la mayoría de los sistemas operativos)
 - [NPM](https://www.npmjs.com/){:target="_blank"}
 - [Yarn](https://classic.yarnpkg.com/en/docs/cli/){:target="_blank"}
+
+---
 
 # Documentación
 
