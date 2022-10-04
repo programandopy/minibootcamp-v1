@@ -230,7 +230,7 @@ document.getElementById('start').addEventListener('click', () => {
 ¡Analicemos el código!
 
 - Configurar el seguimiento de las palabras
-  - Usando [Math.floor] (https://developer.mozilla.org/docs/web/javascript/reference/global_objects/math/floor){:target="_blank"} y [math.random] (https://developer.mozilla.org/docs /Web/javascript/reference/global_objects/math/random){:target="_blank"} nos permite seleccionar aleatoriamente una cotización de la matriz "texto"
+  - Usando [Math.floor](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/math/floor){:target="_blank"} y [math.random](https://developer.mozilla.org/docs /Web/javascript/reference/global_objects/math/random){:target="_blank"} nos permite seleccionar aleatoriamente una cotización de la matriz "texto"
   - Convertimos el "texto" en una matriz de "palabras" para que podamos rastrear la palabra que el reproductor está escribiendo actualmente
   - "palabraIndice" se establece en 0, ya que el reproductor comenzará con la primera palabra
 - Configurar la interfaz de usuario
@@ -319,10 +319,11 @@ Hagamos clic en **Iniciar** y comienza a escribir! Debería parecerse un poco a 
 
 También podés leer [todos los eventos disponibles](https://developer.mozilla.org/docs/web/events){:target="_blank"} para que como desarrollador puedas usar a través del navegador web, e imaginá los escenarios en los que usarías cada uno.
 
-## Tarea - Creá un nuevo juego con los eventos de teclado
+## Tarea - Creá un nuevo juego con los eventos de teclado reusando lo aprendido
 
 ### Instrucciones
-Creá un juego pequeño que use eventos de teclado para realizar tareas. Puede ser un tipo diferente de juego de mecanografía o un juego de tipo artístico que pinta píxeles en la pantalla con las pulsaciones de teclas. ¡Sé creativo!
+Creá un juego pequeño que use eventos de teclado similar al que acabamos de realizar, para esta ocación el desafío es dearrollar el juego conocido como "ahorcado" donde el participante debe adivinar una palabra determinda contando con tan solo 5 oportunidades más que la cantidad de letras que contenga la palabra. ¡Sé creativo!
+Para más referencias respecto a la lógica del juego podés consultar en el siguiente [link](https://es.wikipedia.org/wiki/Ahorcado_(juego)){:target="_blank"}.
 
 ### Rúbrica
 

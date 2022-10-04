@@ -70,7 +70,8 @@ body {
 
 Abrí la consola de tu navegador en la pestaña 'Elementos' y observá la fuente H1. Hereda su fuente del cuerpo, como se indica en el navegador:
 
-![fuente heredada](images/fuente-heredada.png)
+![fuente heredada](images/fuente-heredada.png){: width="650" }{: .center-image}
+
 
 ✅ ¿Podés hacer que un estilo anidado herede una propiedad diferente?
 
@@ -255,7 +256,8 @@ right: 0px;
 ---
 
 
-![diseño terminado](images/disenho-terminado.png)
+![diseño terminado](images/disenho-terminado.png){: width="650" }{: .center-image}
+
 
 # Revisión y autoestudio
 

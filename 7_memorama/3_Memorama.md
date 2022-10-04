@@ -426,7 +426,8 @@ if (primeraTarjetaSeleccionadaIndex == segundaTarjetaSeleccionadaIndex) {
 ```
 ¿Qué pasa acá? sabemos que `setAttribute("src", "images/pattern.png")` pone la imagen del patrón por defecto, pero ¿en quién? Para saber en qué imagen es que hacemos uso del array de todas las imágenes del tablero. Sabemos que en `cartasSeleccionadas` guardábamos el índice de cada carta, como ambos arrays coinciden, el index del array `tarjetas` puede ser utilizado para referenciar en el array `listaTarjetas`.
 
-![lógica](images/logica.png)
+![lógica](images/logica.png){: width="650" }{: .center-image}
+
 
 
 ### Condicionales - Par encontrado
@@ -501,7 +502,8 @@ armarTablero();
 
 ¡Felicidades! ¡Terminaste el juego de memoria!
 
-![Memorama](images/memorama.png)
+![Memorama](images/memorama.png){: width="650" }{: .center-image}
+
 
 # Revisión y autoestudio
 

@@ -19,7 +19,8 @@ Usaremos HTML para diseñar el 'esqueleto' de la interfaz de nuestro detalle de 
 
 En tu computadora, creá una carpeta llamada 'Layout' y dentro de ella, un archivo llamado 'index.html'. Podés hacer esto en Visual Studio Code después de crear tu carpeta del proyecto abriendo una nueva ventana de VS Code, haciendo clic en 'abrir carpeta' y navegando a tu nueva carpeta. Hacé clic en el botón pequeño 'archivo' en el panel del Explorador y creá el nuevo archivo:
 
-![explorador en VS Code](images/vs-code-layout.png)
+![explorador en VS Code](images/vs-code-layout.png){: width="650" }{: .center-image}
+
 
 > Los archivos index.html indican a un navegador que es el archivo predeterminado en una carpeta; las URL como `https://anysite.com/test` se pueden construir usando una estructura de carpetas que incluya una carpeta llamada `test` con `index.html` dentro; `Index.html` no tiene que aparecer en una URL.
 
