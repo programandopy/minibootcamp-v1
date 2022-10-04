@@ -9,6 +9,8 @@ nav_order: 5
 
 Es hora de retomar nuestro proyecto de diseño para mientras continuamos avanzando en la introducción a JavaScript.
 
+---
+
 # Introducción:
 
 Manipular el DOM, o el "Modelo de objetos de documento", es un aspecto clave del desarrollo web. Según [MDN](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction){:target="_blank"}, "El modelo de objetos de documento (DOM) es la representación de datos de los objetos que componen la estructura y contenido de un documento en la web ". Los desafíos en torno a la manipulación del DOM en la web a menudo han sido el ímpetu detrás del uso de marcos de JavaScript en lugar de JavaScript vanilla para administrar el DOM, ¡pero lo administraremos por nuestra cuenta!

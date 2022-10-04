@@ -269,13 +269,19 @@ Ahora analicemos la solución:
 
 * Y por último, agregamos el producto en cuestión a nuestro elemento lista.
 
+---
+
 # Desafío
 
 Reemplazar los elementos del menú por los personajes de star wars de obtenidos de la API, mediante la url (https://swapi.dev/api/people/) sin autenticación. Mostrar nombre (atributo name) y estatura (atributo height).
 
+---
+
 # Lectura complementaria
 
 Si querés saber más sobre API's REST, te recomendamos [esta lectura](https://docs.microsoft.com/es-es/azure/architecture/best-practices/api-design){:target="_blank"}
+
+---
 
 # Tarea
 

@@ -187,6 +187,8 @@ También es notable el uso del índice z, que controla la altitud relativa de un
 
 ✅ ¿Por qué necesitás tanto un contenedor para elementos como un selector CSS de elementos?
 
+---
+
 # 4. Posicionamiento CSS
 
 Mezclar propiedades de posición (hay posiciones estáticas, relativas, fijas, absolutas y pegajosas) puede ser un poco complicado, pero cuando se hace correctamente, te da un buen control sobre los elementos de tus páginas.
@@ -200,6 +202,8 @@ En nuestra muestra, el "contenedor" es un elemento de posición relativa que se 
 > El `elemento` en sí también tiene un posicionamiento absoluto, necesario para que sea arrastrable, como descubrirás en la siguiente lección.
 
 ✅ Experimentá cambiando los tipos de colocación de los tableros laterales y el contenedor. ¿Qué pasa?
+
+---
 
 # 5. Diseños CSS
 
@@ -254,7 +258,6 @@ right: 0px;
 ✅ Intentá cambiar los colores y la opacidad de tu html.
 
 ---
-
 
 ![diseño terminado](images/disenho-terminado.png){: width="650" }{: .center-image}
 

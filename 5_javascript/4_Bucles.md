@@ -9,6 +9,8 @@ nav_order: 4
 
 En esta lección, aprenderás sobre vectores y bucles, que se utilizan para manipular datos.
 
+---
+
 # Vectores
 
 Trabajar con datos es una tarea común para cualquier lenguaje y es una tarea mucho más fácil cuando los datos están organizados en un formato estructural, como vectores. Con las vectores (arrays), los datos se almacenan en una estructura similar a una lista. Uno de los principales beneficios de las vectores es que puede almacenar diferentes tipos de datos en un vector.
@@ -59,6 +61,8 @@ saboresHelado.length; //5
 
 ✅ ¡Intentalo vos mismo! Utilizá la consola de tu navegador para crear y manipular una vector de tu propia creación.
 
+---
+
 # Bucles
 
 Los bucles permiten tareas repetitivas o **iterativas** y pueden ahorrar mucho tiempo y código. Cada iteración puede variar en sus variables, valores y condiciones. Hay diferentes tipos de bucles en JavaScript y tienen pequeñas diferencias, pero esencialmente hacen lo mismo: bucles sobre datos.
@@ -95,6 +99,8 @@ while (i < 10) {
 
 ✅ ¿Por qué elegirías un bucle `for` frente a un bucle `while`? 17K espectadores tenían la misma pregunta sobre StackOverflow, y algunas de las opiniones [podrían ser interesantes para vos](https://stackoverflow.com/questions/39969145/while-loops-vs-for-loops-in-javascript){:target="_blank"}.
 
+---
+
 # Bucles y vectores
 
 Las vectores se utilizan a menudo con bucles porque la mayoría de las condiciones requieren la longitud del vector para detener el bucle, y el índice también puede ser el valor del contador.
@@ -115,6 +121,7 @@ for (let i = 0; i < saboresHelado.length; i++) {
  - [map](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map){:target="_blank"}. 
 Volvé a escribir tu bucle de vector utilizando una de estas técnicas.
 
+---
 
 # Revisión y autoestudio
 

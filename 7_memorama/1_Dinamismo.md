@@ -11,6 +11,8 @@ Hasta ahora hemos creado todos los elementos HTML directo en el HTML, pero ¿qu�
 
 Crear los elementos mediante JavaScript puede ser más complejo pero es mucho más **potente, dinámico y flexible**.
 
+---
+
 # Crear elementos HTML
 
 Para crear elementos HTML, JavaScript proporciona una serie de métodos; el que vamos a utilizar es el [createElement](https://developer.mozilla.org/es/docs/Web/API/Document/createElement){:target="_blank"}. Recibe como primer parámetro el tipo del elemento o nodo a crear, y como segundo parámetro (el cual es opcional) un objeto; este segundo parámetro se utiliza para cuando queremos definir elementos personalizados. En esta clase y en las siguientes no vamos a hacer uso de este segundo parámetro.
@@ -26,6 +28,8 @@ const span = document.createElement("span"); // Retorna <span></span>
 ## Elementos en memoria
 
 Hay que tener en cuenta que al momento de crear estos elementos no los vas a poder ver aún en tu HTML, esto es debido a que todavía no fueron insertados en ninguna posición en el DOM. Es decir, estos elementos solamente son accesibles mediante las variables que las contienen, viven en memoria, **todavía**.
+
+---
 
 # Insertar un elemento en el DOM
 

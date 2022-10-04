@@ -14,11 +14,15 @@ Hasta ahora hemos visto lo que es un array o vector, el cual se trata de una est
 
 ![matriz](images/matriz.jpeg)
 
+---
+
 # Grilla en CSS
 
 CSS noss provee de 2 módulos que contienen todas las funciones necesarias para armar grillas, que son [CSS Grid Layout](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout){:target="_blank"} y [CSS Flexbox](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout){:target="_blank"}.
 
 Nosotros vamos a ver CSS Grid Layout. Como siempre, te instamos a que no te limites a la información proveída acá, sino que investigues por tu cuenta y veas cuál módulo te sienta mejor.
+
+---
 
 # CSS Grid Layout
 
@@ -127,6 +131,7 @@ Podemos ver que Grid Layout respeta la especificación de columna que definimosp
 
 ![flow](images/flow.png)
 
+---
 
 # Revisión y autoestudio
 

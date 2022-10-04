@@ -38,6 +38,8 @@ Los operadores se utilizan para evaluar las condiciones haciendo comparaciones q
 
 ✅ Comprobá tus conocimientos escribiendo algunas comparaciones en la consola de tu navegador. ¿Te sorprende algún dato devuelto?
 
+---
+
 # Declaración If
 
 La sentencia `if` ejecutará código entre sus bloques si la condición es verdadera.
@@ -60,6 +62,8 @@ if (miDinero >= precioLaptop){
 }
 ```
 
+---
+
 # Declaración If..Else
 
 La declaración `else` ejecutará el código entre sus bloques cuando la condición sea falsa. Es opcional con una declaración `if`.
@@ -79,6 +83,8 @@ else {
 ```
 
 ✅ Probá tu comprensión de este código y del siguiente código ejecutándolo en una consola de navegador. Cambiá los valores de las variables miDinero y precioLaptop para cambiar el `console.log()` devuelto.
+
+---
 
 # Operadores lógicos y booleanos
 
@@ -158,6 +164,7 @@ if (primerNumero > segundoNumero) {
 
 🚀 Desafío: creá un programa que se escriba primero con operadores lógicos y luego volvé a escribirlo utilizando una expresión ternaria. ¿Cuál es tu sintaxis preferida?
 
+---
 
 # Revisión y autoestudio
 

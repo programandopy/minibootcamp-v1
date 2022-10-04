@@ -99,6 +99,8 @@ En HTML, agregamos etiquetas al archivo .html para crear elementos de una págin
 
 Ahora podés comenzar a construir tu página. Normalmente, usás etiquetas `<div>` para crear los elementos separados en una página. Crearemos una serie de elementos `<div>` que contendrán imágenes.
 
+---
+
 # Imágenes
 
 Una etiqueta html que no necesita una etiqueta de cierre es la etiqueta `<img>`, porque tiene un elemento `src` que contiene toda la información que la página necesita para representar el elemento.
@@ -202,6 +204,8 @@ Agregá la siguiente línea justo debajo de tu etiqueta de apertura `<body>`:
 
 El uso de marcado semántico, como que los encabezados sean `<h1>` y las listas no ordenadas se representen como `<ul>`, ayuda a los lectores de pantalla a navegar por una página. En general, los botones deben escribirse como `<button>` y las listas deben ser `<li>`. Si bien es _posible_ usar elementos `<span>` de estilo especial con controladores de clic para simular botones, es mejor para los usuarios con capacidades diferentes usar tecnologías para determinar en qué parte de una página reside un botón e interactuar con él. Por esta razón, intenta utilizar el marcado semántico tanto como sea posible.
 
+---
+
 ## 5. El layout
 
 La última parte de esta interfaz implica la creación del código que mas tarde será estilizado para crear el diseño del detalle de un producto.
@@ -224,6 +228,8 @@ Agregá este código encima de la última etiqueta `</div>`:
 ---
 
 🚀 Desafío: hay algunas etiquetas "antiguas" salvajes en HTML con las que todavía es divertido jugar, aunque no debés usar etiquetas obsoletas como [estas etiquetas](https://developer.mozilla.org/es/docs/Web/HTML/Element#elementos_obsoletos_y_en_desuso){:target="_blank"} en tu código. Aún así, ¿podés usar la antigua etiqueta `<marquee>` para hacer que el título h1 se desplace horizontalmente? (si lo hacés, no olvides quitarlo después).
+
+---
 
 # Revisión y estudio
 
