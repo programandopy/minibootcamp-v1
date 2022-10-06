@@ -13,3 +13,9 @@ callouts:
   important:
     title: Importante
     color: blue
+  concept:
+    title: Concepo clave
+    color: green
+  note:
+    title: Nota
+    color: purple
