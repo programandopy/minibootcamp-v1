@@ -176,13 +176,6 @@ Guardá los cambios y actualizá la página web para ver que pasó.
 
 Deberías haber notado un cambio en el tipo de letra.
 
-<<<<<<< HEAD
-![fuente heredada](images/fuente-heredada.png){: width="650" }{: .center-image}
-
-=======
-Así estaba antes:
->>>>>>> cambios-clase-css
-
 ![fuente heredada](images/fuente-original.png)
 
 Así queda ahora:
@@ -413,13 +406,7 @@ También es notable el uso del índice z, que controla la altitud relativa de un
 
 ---
 
-<<<<<<< HEAD
----
-
-# 4. Posicionamiento CSS
-=======
 # Posicionamiento CSS
->>>>>>> cambios-clase-css
 
 Mezclar propiedades de posición (hay posiciones estáticas, relativas, fijas, absolutas y pegajosas) puede ser un poco complicado, pero cuando se hace correctamente, te da un buen control sobre los elementos de tus páginas.
 
@@ -433,13 +420,7 @@ En nuestra muestra, el "contenedor" es un elemento de posición relativa que se 
 
 ✅ Experimentá cambiando los tipos de colocación de los tableros laterales y el contenedor. ¿Qué pasa?
 
-<<<<<<< HEAD
----
-
-# 5. Diseños CSS
-=======
 # Diseñando con CSS
->>>>>>> cambios-clase-css
 
 Ahora usarás lo que aprendiste para construir tarjeta que va en el centro de la página, ¡todo usando CSS!
 
@@ -514,27 +495,6 @@ right: 0px;
 
 ---
 
-<<<<<<< HEAD
-![diseño terminado](images/disenho-terminado.png){: width="650" }{: .center-image}
-
-
-# Revisión y autoestudio
-
-CSS parece engañosamente sencillo, pero existen muchos desafíos cuando se trata de diseñar una aplicación perfectamente para todos los navegadores y todos los tamaños de pantalla. CSS-Grid y Flexbox son herramientas que se han desarrollado para hacer el trabajo un poco más estructurado y más confiable. Aprende sobre estas herramientas jugando a [Flexbox Froggy](https://flexboxfroggy.com/#es){:target="_blank"} y [Grid Garden](https://codepip.com/games/grid-garden/){:target="_blank"}.
-
-Lectura adicional: [Diseñá tu aplicación HTML con CSS](https://docs.microsoft.com/es-mx/learn/modules/build-simple-website/4-css-basics?WT.mc_id=academic-13441-cxa){:target="_blank"}
-
-## Tarea - Cambio de estilos
-
-Para esta tarea, vamos a cambiar un poco los estilos que usamos en el proyecto. Podés cambiar los colores, bordes o tamaños de las cosas. Jugá con el diseño para personalizarlo un poco.
-
-### Rúbrica
-
-| Criterios | Ejemplar                                                         | Adecuada                      | Necesita mejorar                    |
-| -------- | ----------------------------------------------------------------- | ----------------------------- | ------------------------------------ |
-|          | Cambia el estilo de almenos 4 elementos | Modificó 2 o 3 elementos | No cambió el estilo del diseño en absoluto |
-=======
 Terminamos! La página web debería haberte quedado mas o menos así:
 
 ![diseño terminado](images/disenho-terminado.png)
->>>>>>> cambios-clase-css
