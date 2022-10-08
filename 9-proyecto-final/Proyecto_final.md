@@ -30,7 +30,7 @@ Para solucionar el problema vamos a implementar una aplicación web estructurada
 
 En esta etapa también podemos realizar un diseño de cómo se verá nuestra aplicación web.
 
-![aplicacionGastos](images/aplicacion-gastos.png)
+![aplicacionGastos](images/aplicacion-gastos.png){: .center-image}
 
 ## Codificación
 Una vez que tenemos la formulación del problema y el diseño de la solución, podemos pasar a la codificación de la solución. Para esto tendremos tres archivos, similar a los que utilizamos para la app de Menú:

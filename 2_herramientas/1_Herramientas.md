@@ -9,42 +9,8 @@ nav_order: 1
 
 Una de las herramientas más importantes para el desarrollo de software es el editor. Los editores son procesadores de texto donde escribís el código.
 
-Hagamos algunos experimentos para entender que es un editor y cómo se usa para escribir un programa.
-
-### Tarea: Escribiendo un programa
-
-Empecemos por crear un archivo nuevo en el escritorio, haciendo clic derecho sobre el escritorio, y luego sobre "nuevo" y seleccionando "Documento de texto".
-
-Esto crea un documento nuevo en el escritorio, que se llama `Nuevo documento de texto.txt`, en este punto podemos renombrar el archivo a `prueba.txt`.
-
-Al hacer doble clic sobre el documento nuevo, se abre el block de notas o el notepad, donde vamos a poder editar el documento. Estos programas son editores de texto, y sirven para escribir lo que se llama texto plano, es decir sin formato.
-
-Ahora, copiemos en el documento de texto lo siguiente:
-
-``` javascript
-<!DOCTYPE html>
-<html>
-<head>
-   <title>Hola mundo</title>
-</head>
-<body>
-   <h1>Hola Mundo</h1>
-</body>
-</html>
-```
-Guardamos los cambios haciendo `ctrl+s`, o haciendo clic en el menú "archivo -> guardar".
-
-Ahora podemos abrir este documento en cualquier navegador para ver que pasa. Hacemos esto haciendo clic derecho sobre el documento, y luego clic en el menú "abrir con" y seleccionando el navegador, o simplemente abriendo el navegador web y arrastrando el documento hasta cualquier parte del mismo.
-
-Lo que pasa, es que se abre el documento y podemos ver exactamente lo que escribimos. Como el navegador no es un editor de texto, solo podemos leer el documento. 
-
-Hasta ahora todo funciona correctamente, salvo que el navegador piensa que esta mostrando un documento de texto, cuando lo que escribimos en realidad es un programa.
-
-Le hacemos saber esto al navegador mediante la **extensión** del archivo, que es lo que viene despues del punto en el nombre. En este caso, la extensión es `.txt`, que significa que se trata de un texto normal.
-
-Cambiemos el nombre del archivo, para que el navegador sepa que se trata de un programa. En este caso, el código que copiamos está escrito en un lenguaje llamado **HTML**. Renombrá el archivo a `prueba.html`.
-
-Ahora podemos abrir el archivo simplemente haciendo doble clic sobre él, y se abrirá en el navegador, que esta vez sabe que *le estamos hablando en su idioma, HTML*, y podrá interpretar correctamente el programa.
+{: concept}
+Un editor de texto es un programa informático que te permite editar o crear archivos digitales compuestos únicamente por textos sin formato. Es decir, archivos que no contengan formato de texto específico y que son conocidos comúnmente como archivos de texto o texto plano.
 
 ## Editores de texto especializados
 
@@ -77,6 +43,35 @@ Al abrirse, vemos que el archivo se abre y podemos notar rápidamente las difere
   - [Code Spell Checker para Atom](https://atom.io/packages/spell-check){:target="_blank"}
   - [Teletype](https://atom.io/packages/teletype){:target="_blank"}
   - [atom-beautify](https://atom.io/packages/atom-beautify){:target="_blank"}
+
+
+### Tarea: Escribiendo un programa
+
+- Abrimos nuestro editor de código VSCode haciend doble clic sobre el ícono correspondiente.
+- Una vez en VSCode desde el menú de opciones en nuestra barra de herramientas seleccionas «Archivo -> Nuevo archivo» (o mediante el atajo combinando las teclas Ctrl + N)
+- Se nos abrirá la ventana de edición y de esa manera podemos iniciar a codificar un archivo de texto copiando lo siguiente:
+
+``` javascript
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Hola mundo</title>
+</head>
+<body>
+   <h1>Hola Mundo</h1>
+</body>
+</html>
+```
+- Guardamos los cambios en el archivo desde el menú de opciones seleccionando «Archivo->guardar« (o mediante el atajo `Ctrl + S`) y en la opción de gardado elegimos el nombre para nuestro archivo con su correspondiente extensión, en este caso será `prueba.txt`
+- Ahora podemos abrir este documento en cualquier navegador para ver que pasa. Hacemos esto haciendo clic derecho sobre el documento, y luego clic en el menú "abrir con" y seleccionando el navegador, o simplemente abriendo el navegador web y arrastrando el documento hasta cualquier parte del mismo.
+
+{: .important }
+Lo que pasa, es que se abre el documento y podemos ver exactamente lo que escribimos. Como el navegador no es un editor de texto, solo podemos leer el documento. 
+Hasta ahora todo funciona correctamente, salvo que el navegador piensa que esta mostrando un documento de texto, cuando lo que escribimos en realidad es un programa. Le hacemos saber esto al navegador mediante la **extensión** del archivo, que es lo que viene despues del punto en el nombre. En este caso, la extensión es `.txt`, que significa que se trata de un texto normal.
+
+- Cambiemos el nombre del archivo, para que el navegador sepa que se trata de un programa. En este caso, el código que copiamos está escrito en un lenguaje llamado **HTML**. Renombrá el archivo a `prueba.html`.
+
+- Ahora podemos abrir el archivo simplemente haciendo doble clic sobre él, y se abrirá en el navegador, que esta vez sabe que *le estamos hablando en su idioma, HTML*, y podrá interpretar correctamente el programa.
 
 ---
 
