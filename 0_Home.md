@@ -9,7 +9,7 @@ permalink: /
 # Introducción a la Programación Web.
 {: .fs-9 }
 
-Este tutorial se desarrollo en el marco del programa Programando Paraguay (www.programandopy.org). 
+Este tutorial se desarrollo en el marco del programa [Programando Paraguay](www.programandopy.org). 
 El contenido programático corresponde a un pre-entrenamiento intensivo de 12 días de duración con el objetivo de que los jóvenes adquieran conocimientos básicos sobre desarrollo web y habilidades blandas que les permitan continuar con su proceso de aprendizaje de manera autodidacta.
 {: .fs-6 .fw-300 }
 
