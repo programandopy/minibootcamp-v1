@@ -14,15 +14,18 @@ Esta lección cubre los conceptos básicos de JavaScript, el lenguaje que propor
 # Preparar el proyecto
 
 {: .important }
-Para poder seguir este material paso a paso, podemos crear un nuevo proyecto con una pagina web en blanco.
+Para poder seguir este material paso a paso, podemos crear un nuevo proyecto con una pagina web en blanco, simplemente usar el proyecto que ya teniamos hecho.
 
-En el proyecto vamos a crear un archivo nuevo, llamado `script.js`, y vamos a agregar en la cabecera del HTML la siguiente linea:
+### Actividad
 
-```html
-<script src="./script.js" defer></script>
-```
+Crea un proyecto nuevo así como lo hiciste en el apartado de [Intro a HTML](../3_html/Introduccion_HTML)
 
-Bastara con que nuestro HTML quede asi:
+Recordemos los pasos:
+1. Crea una carpeta llamada "js-basics"
+2. Ya podés abrir la carpeta en el visual studio.
+3. Agrega un archivo HTML llamado `index.html`.
+
+Bastará con que nuestro HTML quede asi:
 
 ```html
 <!DOCTYPE html>
@@ -35,8 +38,17 @@ Bastara con que nuestro HTML quede asi:
         <script src="./script.js" defer></script>
     </head>
     <body>
+        <h1>JS Basics<h1>
     </body>
 </html>
+```
+
+No necesitamos incluir un archivo CSS para este proyecto, pero si querés, podes crear el archivo `style.css` y agregale todo lo que quieras a la página.
+
+En el proyecto vamos a crear un archivo nuevo, llamado `script.js`, y vamos a agregar en la cabecera del HTML la siguiente linea:
+
+```html
+<script src="./script.js" defer></script>
 ```
 
 Vamos a escribir todo nuestro código en JavaScript en el archivo `script.js`, y podemos empezar escribiendo un mensaje, que vamos a poder ver en la consola.
@@ -50,6 +62,8 @@ console.log("Hola Mundo");
 ```
 
 Ahora abrí la pagina web del proyecto y abrí la consola, deberias poder ver el mensaje que escribiste.
+
+![abrir-consola](images/abrir-consola.gif)
 
 ---
 
