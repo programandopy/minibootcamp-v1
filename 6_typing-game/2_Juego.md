@@ -114,13 +114,14 @@ Empezamos crando un nuevo archivo llamado **style.css** y agregamos el siguiente
 
 ```css
 /* dentro de estilo.css */
-.destacar {
-   background-color: amarillo;
-}
-.error {
-   background-color: coral claro;
-   border-color: rojo;
-}
+.highlight {
+    background-color: yellow;
+ }
+
+ .error {
+    background-color: lightcoral;
+    border-color: red;
+ }
 ```
 
 ✅ **TIP**: Cuando se trata de CSS, podemos diseñar la página como más nos guste. Es aquí donde nos tomamos el tiempo para diseñar lo que querramos mostrar y hacer que la página se vea más atractiva, teniendo en cuenta por ejemplo:
@@ -176,8 +177,8 @@ let palabraIndice = 0;
 let startTime = Date.now();
 // elementos de la pagina
 const textoElemento = document.getElementById('textos');
-const mensajeElemento = document.getElementById('mensaje');
-const typedValorElemento = document.getElementById('typed-value');
+const messageElement = document.getElementById('mensaje');
+const typedValueElement = document.getElementById('typed-value');
 ```
 
 ✅ Continúa y agrega más textos a tu juego
@@ -198,7 +199,7 @@ Cuando el usuario hace clic en Inicio, necesitamos elegir un texto de ejemplo pa
 // en el final de nuestro archivo script.js
 document.getElementById('inicio').addEventListener('click', () => {
   // elegimos el texto de ejemplo a mostrar
-  const textoIndice = Math.floor(Math.random() * quotes.length);
+  const textoIndice = Math.floor(Math.random() * textos.length);
   const texto = texto[textoIndice];
   // separamos el texto en un array de palabras
   palabras = texto.split(' ');
@@ -252,10 +253,10 @@ A medida que el jugador escribe, se estará realizando un evento de entrada. Ent
 // al final de nuestro archivo script.js
 typedValueElement.addEventListener('input', () => {
   // tomamos la palabra actual
-  const currentWord = words[wordIndex];
+  const currentWord = palabras[palabraIndice];
   // tomamos el valor actual
   const typedValue = typedValueElement.value;
-  if (typedValue === currentWord && wordIndex === words.length - 1) {
+  if (typedValue === currentWord && palabraIndice === palabras.length - 1) {
     // fin de la sentencia
     // Definimos el mensaje de éxito
     const elapsedTime = new Date().getTime() - startTime;
