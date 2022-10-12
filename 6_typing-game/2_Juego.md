@@ -196,7 +196,7 @@ Cuando el usuario hace clic en Inicio, necesitamos elegir un texto de ejemplo pa
 ```javascript
 
 // en el final de nuestro archivo script.js
-document.getElementById('start').addEventListener('click', () => {
+document.getElementById('inicio').addEventListener('click', () => {
   // elegimos el texto de ejemplo a mostrar
   const textoIndice = Math.floor(Math.random() * quotes.length);
   const texto = texto[textoIndice];
