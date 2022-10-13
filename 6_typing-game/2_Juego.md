@@ -79,7 +79,7 @@ Ahora creamos un nuevo archivo con el nombre **index.html** y agregamos el sigui
 </head>
 <body>
   <h1>Nuestro Typing game!</h1>
-  <p>Practique sus habilidades de tipeo con este texto de ejmplo de Sherlock Holmes. Haga Click en  **inicio** para empezar!</p>
+  <p>Practique sus habilidades de tipeo con este texto de ejemplo de Sherlock Holmes. Haga Click en  **inicio** para empezar!</p>
   <p id="quote"></p> <!-- En este bloque mostramos el texto de ejemplo -->
   <p id="message"></p> <!-- En este bloque mostramos los mensajes del juego -->
   <div>
@@ -154,7 +154,7 @@ Vamos a necesitar algunos elementos para hacernos la vida un poco más fácil pa
 También vamos a querer referencias a los elementos de la interfaz de usuario:
 
 - El cuadro de texto (**valor escrito**)
-- La pantalla de cotización (**texto de ejemplo**)
+- La pantalla de texto a tipear (**texto de ejemplo**)
 - El mensaje (**mensaje**)
 
 
