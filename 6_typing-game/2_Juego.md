@@ -176,8 +176,8 @@ let palabraIndice = 0;
 // la hora de inicio
 let startTime = Date.now();
 // elementos de la pagina
-const textoElemento = document.getElementById('textos');
-const messageElement = document.getElementById('mensaje');
+const textoElement = document.getElementById('quote');
+const messageElement = document.getElementById('message');
 const typedValueElement = document.getElementById('typed-value');
 ```
 
@@ -200,7 +200,7 @@ Cuando el usuario hace clic en Inicio, necesitamos elegir un texto de ejemplo pa
 document.getElementById('inicio').addEventListener('click', () => {
   // elegimos el texto de ejemplo a mostrar
   const textoIndice = Math.floor(Math.random() * textos.length);
-  const texto = texto[textoIndice];
+  const texto = textos[textoIndice];
   // separamos el texto en un array de palabras
   palabras = texto.split(' ');
   // reestablemos el idice de palabras para el seguimiento
@@ -267,13 +267,13 @@ typedValueElement.addEventListener('input', () => {
     // vaciamos el valor typedValueElement para la siguiente palabra
     typedValueElement.value = '';
     // movemos a la palabra siguiente
-    palabraIndicea++;
+    palabraIndice++;
     // reiniciamos el estado de todas las clases para los textos
     for (const palabraElement of textoElement.childNodes) {
       palabraElement.className = '';
     }
     // resaltamos la palabra actual
-    quoteElement.childNodes[wordIndex].className = 'highlight';
+    textoElement.childNodes[palabraIndice].className = 'highlight';
   } else if (currentWord.startsWith(typedValue)) {
     // correcta actual
     // resaltar la siguiente palabra
