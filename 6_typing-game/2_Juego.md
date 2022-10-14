@@ -178,7 +178,7 @@ let startTime = Date.now();
 // elementos de la pagina
 const textoElement = document.getElementById('quote');
 const messageElement = document.getElementById('message');
-const typedValueElement = document.getElementById('typed-value');
+const typedValueElement = document.getElementById('texto-tipeado');
 ```
 
 ✅ Continúa y agrega más textos a tu juego
