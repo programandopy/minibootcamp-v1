@@ -190,56 +190,37 @@ En el archivo styles.css podemos incluirlo, por ejemplo así:
 
 ```css
 body { /* Aplica a todo el body*/
-  background-color: #A6D1E6;
-  font-family: 'Roboto', sans-serif;
-  color: #3D3C42;
+    background-color: #ffe6d1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3D3C42;
 }
 
 h1 {
-  text-align: center;
-  margin-top: 2rem;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 .menu-item {
-  background-color: #7F5283;
-  color: #FEFBF6;
-  margin-top: 1rem;
-  min-height: 5rem;
-  border-radius: 10px;
-  max-width: 100%;
-  line-height: 3rem;
-  border: 1px solid #3D3C42;
-  background-image: none; /* esto es necesario para que cuando no se haga hover se vuelva al fondo purpura sólido */
+    margin-top: 1%;
+    height: 2rem;
+    border-radius: 10px;
+    max-width: 100%;
+    background-image: none;
 }
 
 .menu-item:hover {
-  color: #3D3C42;
-  background-image: linear-gradient(90deg, #FBC5C5, #FEFBF6); /* esto es para generar el degradado desde el rosa al blanco,
-  el angulo es de 90 grados porque de otro modo el degradado seria de arriba a abajo */
+    color: #3D3C42;
+    background-color: #c19a79a5;
 }
 
 .precio {
-  float: right;
-  margin-right: 1rem;
-}
-
-/*
-Es importante que esta clase esté después del menu-item por el orden de prioridad de las clases aplicadas
-*/
-.index-item {
-  width: 80px;
-  height: 5rem;
-  position: relative;
-  float: left;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  background-color: #FBC5C5;
-  color: #3D3C42;
-}
+    float: right;
+    margin-right: 3%;
+    }
 
 .producto {
-  float: left;
-  margin-left: 1rem;
+    float: left;
+    margin-left: 3%;
 }
 
 /*
@@ -247,17 +228,15 @@ Esta clase permite centrar verticalmente los items en el div, tener en cuenta qu
 el line-height acá también debería aumentar al mismo valor.
 */
 .item {
-  vertical-align: middle;
-  line-height: 5rem; 
-}
-
-.indice {
-  margin-left: 40px;
+    vertical-align: middle;
+    line-height: 2rem; 
 }
 
 #lista-menu {
-  margin: auto; /* con esto se logra que este centrado horizontalmente */
-  width: 60%;
+    margin: auto; /* con esto se logra que este centrado horizontalmente */
+    width: 70%;
+    font-size: 17px;
+    font-weight: 600;
 }
 ```
 
