@@ -5,7 +5,7 @@ nav_order: 3.5
 has_toc: true
 ---
 
-# Proyecto Calculadora de hidratación basal - Parte 1: Introducción a HTML
+# Proyecto Calculadora de hidratación basal
 {: .no_toc }
 
 En los hospitales, los enfermeros y doctores necesitan calcular la cantidad de líquidos que necesita cada paciente. En hospitales modernos cada paciente tiene un monitor donde ya está indicado este dato y muchos otros, como la dosis correcta de los distintos medicamentos.
