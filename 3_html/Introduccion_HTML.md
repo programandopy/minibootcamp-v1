@@ -302,3 +302,15 @@ Una cosa mas que nos esta faltando es un mensaje de error para cuando el usuario
 
 {: .concept }
 La etiqueta `<p>` se usa para agregar `párrafos`, o en otras palabras, texto que ocupe toda una linea. Esto significa que el elemento va a ocupar toda una linea.
+
+# Marcado semántico
+
+En general, es preferible usar ‘semántica’ significativa al escribir HTML. Qué significa eso? Significa que tenemos que utilizar las etiquetas HTML de la forma en que fueron diseñadas. Por ejemplo, el título principal en una página debería usar siempre una etiqueta <h1>.
+
+Agregá la siguiente línea justo debajo de tu etiqueta de apertura <body>:
+
+```html
+<h1>Detalle de Producto</h1>
+```
+
+El uso de marcado semántico, como que los encabezados sean `<h1>` y las listas no ordenadas se representen como `<ul>`, ayuda a los lectores de pantalla a navegar por una página. En general, los botones deben escribirse como `<button>` y las listas deben ser `<li>`. Si bien es posible usar elementos `<span>` de estilo especial con controladores de clic para simular botones, es mejor para los usuarios con capacidades diferentes usar tecnologías para determinar en qué parte de una página reside un botón e interactuar con él. Por esta razón, intenta utilizar el marcado semántico tanto como sea posible.
